@@ -1,0 +1,33 @@
+bison --defines=yyparse.h --output=yyparse.cpp parser.y
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c symtab.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c astree.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c lyutils.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c auxlib.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c stringset.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c oilhelper.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c main.cpp
+flex --outfile=yylex.cpp scanner.l 2>yylex.output
+grep -v '^  ' yylex.output
+flex version 2.5.37 usage statistics:
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c yylex.cpp
+yylex.cpp: In function ‘yy_buffer_state* yy_scan_bytes(const char*, yy_size_t)’:
+yylex.cpp:2053:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for ( i = 0; i < _yybytes_len; ++i )
+                 ^
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -c yyparse.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++14 -ooc symtab.o astree.o lyutils.o auxlib.o stringset.o oilhelper.o main.o yylex.o yyparse.o
+checksource README Makefile parser.y scanner.l symtab.h astree.h lyutils.h auxlib.h stringset.h oilhelper.h symtab.cpp astree.cpp lyutils.cpp auxlib.cpp stringset.cpp oilhelper.cpp main.cpp 
+checksource: improper character \x09 = ^I (tab)
+   file "oilhelper.cpp": 38 errors: lines 16, 20--25, 31--33, 35--37, 
+        40--41, 76--77, 96--96, 116--116, 214--214, 321--321, 356--356
+   file "symtab.cpp": 340 errors: lines 20, 22--31, 35--36, 38--83, 
+        88--90, 95--97, 164--165, 169--170, 195--202, 209--214, 
+        220--225, 233--249, 257--280, 287--295, 297--305, 313--320, 
+        325--356
+   file "symtab.h": 14 errors: lines 13--15, 25--31, 37--37
+checksource: line length > 72 characters
+   file "auxlib.h": 1 errors: line 53
+   file "lyutils.cpp": 1 errors: line 85
+   file "parser.y": 4 errors: lines 114, 122, 128--129
+checksource: TOTAL COMPLAINTS: 398
+gmake: [all] Error 1 (ignored)

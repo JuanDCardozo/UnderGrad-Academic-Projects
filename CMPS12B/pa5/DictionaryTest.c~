@@ -1,0 +1,178 @@
+/** ***************************************************************************
+ * Name: Juan D. Cardozo
+ * Student I.D: 1362585
+ * CRUZ I.D: jcardozo
+ * Class: CMPS 12M
+ * Section: Mondays 6-8
+ * Date: 05/09/2015
+ * DictionaryTest.c
+ * It is a test harness for Dictionary.c it will print whether each functions passed
+ * a test or not.
+ ******************************************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#include "Dictionary.h"
+
+int main(int argc, char* argv[])
+{
+  //    char* temp;
+    int testsPassed = 0;
+    int totalTestsPassed = 0;
+
+    // Print test harness  information
+    printf("-----------------------------\n"
+            "Dictionary.c Test Harness:\n"
+            "------------------------------\n");
+//-----------------------------------------------------
+// newDictionary() and first  isEmpty() Test
+//-----------------------------------------------------
+
+    // Test 1: newDictionary()
+    Dictionary A = newDictionary();
+    if (isEmpty(A) == 1) {
+        testsPassed++;
+    }
+
+
+// Print out Result of tests
+if(testsPassed == 1) {
+    printf("\nnewDictionary: PASSED!\n\nFirst isEmpty() Test: PASSED!\n");
+    totalTestsPassed++;
+} else {
+    printf("\nnewDictionary: FAILED!\n\nFirst isEmpty() Test: FAILED!\n");
+}
+testsPassed = 0;
+
+//-----------------------------------------------------
+// insert() Test
+// lookup() Test
+//-----------------------------------------------------
+
+// Test 1: insert() and lookup();
+insert(A, "one", "aa");
+ if (strcmp(lookup(A,"one"), "aa") == 0) {
+    testsPassed++;
+}
+
+	   
+if (testsPassed == 1) {
+    printf("\ninsert(): PASSED!\n"
+            "\nlookup(): PASSED!\n");
+    totalTestsPassed++;
+} else {
+    printf("\ninsert(): FAILED!\n"
+            "\nlookup(): FAILED!\n");
+}
+testsPassed = 0;
+
+//----------------------------------------------------
+// isEmpty()
+//-----------------------------------------------------
+
+// Test 1:  isEmpty()
+if (isEmpty(A) == 0) {
+    testsPassed++;
+}
+
+if (testsPassed == 1) {
+    printf("\nSecond isEmpty() Test: PASSED!\n");
+    totalTestsPassed++;
+} else {
+    printf("\nSecond isEmpty() Test: FAILED!\n");
+}
+testsPassed = 0;
+
+//-----------------------------------------------------
+// size()
+//-----------------------------------------------------
+
+// Test 1:  size()
+ insert(A,"two","bb");
+ if (size(A) == 2) {
+    testsPassed++;
+}
+if (testsPassed == 1) {
+    printf("\n size() : PASSED!\n");
+    totalTestsPassed++;
+} else {
+    printf("\nsize(): FAILED!\n");
+}
+testsPassed = 0;
+
+//------------------------------------------------
+// delete()
+//------------------------------------------------
+
+// Test 1:  delete()
+delete(A, "one");
+if (size(A) == 1) {
+    testsPassed++;
+}
+
+if (testsPassed == 1) {
+    printf("\ndelete(): PASSED!\n");
+    totalTestsPassed++;
+} else {
+    printf("\ndelete(): FAILED!\n");
+}
+testsPassed = 0;
+
+//------------------------------------------------
+// printDictionary()
+//------------------------------------------------
+
+// Test 1:  printDictionary()
+insert(A,"three","cc");
+insert(A,"four","dd");
+char* testString = "\nString to Print Out:\nkey=\"two\" value=\"bb\"\nkey=\"three\" value=\"cc\"\n""key=\"four\" value=\"dd\"\n\n";
+fprintf(stdout,testString);
+fprintf(stdout,"printDictionary():\n");
+printDictionary(stdout, A);
+
+testsPassed = 0;
+
+//------------------------------------------------
+// makeEmpty()
+//------------------------------------------------
+
+// Test 1:  makeEmpty()
+makeEmpty(A);
+
+if (isEmpty(A) == 1) {
+    testsPassed++;
+}
+
+
+if (testsPassed == 1) {
+    printf("\nmakeEmpty(): PASSED!\n");
+    totalTestsPassed++;
+} else {
+    printf("\nmakeEmpty(): FAILED!\n");
+}
+testsPassed = 0;
+
+//------------------------------------------------
+// freeDictionary()
+//------------------------------------------------
+
+freeDictionary(&A);
+
+//------------------------------------------------
+//Print information about test harness
+//------------------------------------------------
+
+if (totalTestsPassed == 6) {
+    printf("-----------------------------\n"
+            "Test Harness Dictionary.c: PASSED!\n"
+            "Tests Passed: (7/7)\n");
+
+} else {
+    printf("-----------------------------\n"
+            "Test Harness Dictionary.c:: FAILED!\n"
+            "Tests Passed: (%d/7)\n", totalTestsPassed);
+}
+totalTestsPassed = 0;
+}

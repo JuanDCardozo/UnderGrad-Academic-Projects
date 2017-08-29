@@ -1,0 +1,15 @@
+int (3.7.1) {0} int const 
+reference (3.8.1) {0} typeid 
+foo (3.9.6) {0} void function 
+
+foo (3.10.6) {0} void function 
+
+foo (3.11.6) {0} void function 
+  int (3.11.11) {1} int param const 
+  int (3.11.20) {1} int param const 
+  x (3.11.34) {1} int variable lval 
+
+foo (3.12.8) {0} struct "foo" 
+  a (3.12.18) {0} field {foo} int 
+  b (3.12.25) {0} field {foo} int 
+

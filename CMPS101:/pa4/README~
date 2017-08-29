@@ -1,0 +1,76 @@
+****************************************************************************
+Name: Juan D. Cardozo
+Cruz I.D: jcardozo
+Student I.D: 1362585
+Programming Assignment: pa04
+******************************************************************************
+"I have read and understood te Academic  Misconduct Policy for Undergraduates,
+at the related sections 102.01-102.016 and 105.15 of the Uc Santa Cruz Student
+Policies and Regulations Handbook, and the related sections of the class
+syllabus"
+Juan D. Cardozo
+*******************************************************************************
+"I wrote this assignment using only permitted sources that do not require 
+citation, according to the syllabus"
+Juan D. Cardozo
+******************************************************************************
+Submitted Files:
+	  1. greedy04.c
+	  2. testGreedy04.c
+	  3. loadWgtGraph.h
+	  4. loadWgtGraph.c
+	  5. edgeList.c
+	  6. edgeList.h
+	  7  minPQ.h
+	  8. minPQ.c
+	  9. README
+	 10. Makefile
+	 11. test1
+*****************************************************************************
+How to Compile:
+
+The Makefile should compile all the neccesary files using make. It will generate
+greedy04 and testGreedy04, which is used to test the headerfiles. It also has a clean
+functionality and a submit functionality.
+
+*****************************************************************************
+How to Run:
+-greedy04
+At the moment it does not implement dijkstras algorithms and it does not output
+the MST. It only reads the input and generates the graph, but does not do 
+anything else. The usage: greedy04 test1 
+
+-testGreedy04
+This is the test file for edgeList.h, minPQ.h and loadWgtGraph.h. It only works
+with test1 file and it should show whether each file passed the test or not. If
+it fails it will tell you so and in some cases which function.
+*****************************************************************************
+Description of Files
+greedy04.c:
+
+This program reads an input file and parses the data into an array of linked
+lists in which we keep track of the vertices and the adjacent vertices to them.
+Then it will either perform prims algorith or dijkstras algorithm on the graph 
+produced and finds the shortes path. Then it outputs the graph.
+
+loadWgtGraph.c/loadWgtGraph.h
+It initialized the adjecency arrays and fills in the vertices and its edges.
+
+edgeList.c/edgeList.h
+It is the ADT used to create linked list with the information to create
+udirected weighted graphs.
+
+minPQ.c/minPQ.h
+This add creates a priority queue to keep track of the most cost effective
+path used in prims and dijktras algorithm
+
+*****************************************************************************
+Test Files/ Input Files:
+
+The makefile will compile testGreedy04 which is a test to show that edgelist, minPQ
+and loadWgtGraph work. It only runs with test1 file.( Usage: testGreedy04 test1)
+The testfile will print the ADT tested and whether or not it passed the test.
+
+*****************************************************************************
+Known Bugs:
+The function djkstras algorithms have not been completely implemented.

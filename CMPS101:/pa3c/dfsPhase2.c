@@ -1,0 +1,60 @@
+/* ******************************************************************
+ * Name: Juan D. Cardozo
+ * Cruz I.D: jcardozo
+ * Student I.D: 1362585
+ * Assigment: pa03
+ * File: dfsPhase2.c
+ * Purpose: 
+ ****************************************************************** */
+// User Library
+#include "dfsPhase2.h"
+
+ /*Manipulation function.
+ * Preconditions: adjVertices is not intNil.
+ * Postconditions: None
+ */
+void dfsSweepIntT(int size, IntList* adjVertices,int* color, int* dtime, int* ftime, int* parent){
+  int  time = 0;
+  for(int v = 1; size > v; ++v){
+    if(color[v] == 0){
+      parent[v] = -1;
+      dfsTraceIntT(v,adjVertices,color,dtime,ftime,parent,time);
+    }
+  }
+}
+
+/* Manipulation function.
+ * Preconditions: adjVertices is not intNil.
+ * Postconditions: None
+ */
+void dfsTraceIntT(int v, IntList* adjVertices,int* color, int* dtime, int* ftime, int* parent, int time){
+  int w;
+  IntList remAdj;
+  
+  // Set as visited and initialize variable
+  color[v] = -1;
+  dtime[v] = ++time;
+  remAdj = adjVertices[v];
+
+  // Traverse Linkedlist
+  while(remAdj != intNil){
+    w = intFirst(remAdj);
+    if(color[w] == 0){
+      parent[w] = v;
+      dfsTraceIntT(w,adjVertices,color,dtime,ftime,parent,time);
+    }else{
+      break;
+    }
+    remAdj = intRest(remAdj);
+    ftime[v] = ++time;
+  }//end of while
+
+  //Set as completed
+  color[v] = -2;
+}
+
+/* Manipulation function.
+ * Preconditions: adjVertices is not intNil.
+ * Postconditions: None
+ */
+void dfsPhase2(int v, IntList* adjVertices,int* color, int* dtime, int* ftime, int* parent, int time);

@@ -1,0 +1,16 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+8™1:6.10: invalid source character (")
+8™1:6.16: syntax error, unexpected TOK_IDENT, expecting ')' or ','
+8™1:6.28: invalid source character (")
+8™1:8.10: invalid source character (")
+8™1:8.15: invalid source character (")
+8™1:10.10: invalid source character (")
+8™1:10.11: syntax error, unexpected '.'
+8™1:10.12: invalid source character (\)
+8™1:10.14: invalid source character (")
+8™1:20.12: invalid source character (")
+8™1:20.19: invalid source character (")
+8™1:20.22: invalid source character (")
+8™1:20.32: invalid source character (")
+8™1:20.35: invalid source character (")
+8™1:20.47: invalid source character (")

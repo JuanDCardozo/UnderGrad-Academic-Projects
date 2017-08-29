@@ -1,0 +1,12 @@
+codegen ident: abc
+codegen ident: a
+codegen ident: s
+codegen ident: abcd
+codegen ident: s
+codegen ident: abc
+codegen ident: abc
+codegen ident: a
+codegen ident: s
+codegen ident: abcd
+codegen ident: s
+codegen ident: abc

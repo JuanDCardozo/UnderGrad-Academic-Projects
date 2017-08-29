@@ -1,0 +1,357 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = =;
+        char* s13 = =;
+        char* s14 = while;
+        char* s15 = =;
+        char* s16 = while;
+        char* s17 = =;
+        char* s18 = while;
+        [] __int        int __indexint i1
+        (null)  = [] __int;
+int i2
+        (null)  = int __index;
+index __index
+int i3
+
+sieve __sieve
+index __index
+int i4
+index __index
+index __index
+int i5
+
+while_6_10_1:;
+        
+        if (!) goto break_6_10_21
+        goto while_6_10_1
+break_6_10_21):;
+int i6
+        (null)  = s15;
+prime __prime
+int i7
+
+sieve __sieve
+prime __prime
+index __index
+prime __prime
+int i8
+
+index __index
+int i9
+
+sieve __sieve
+index __index
+int i10
+index _ _index
+index __index
+prime __prime
+
+while_6_19_7:;
+        
+        if (!) goto break_6_19_27
+        goto while_6_19_7
+break_6_19_27):;
+        
+        if (!) goto fi_6_17_13;
+        sieve __sieve
+        prime __prime
+fi_6_17_13:;
+prime __prime
+prime __prime
+int i11
+
+while_6_16_1:;
+        
+        if (!) goto break_6_16_21
+        goto while_6_16_1
+break_6_16_21):;
+index __index
+int i12
+index __index
+int i13
+
+sieve __sieve
+index __index
+puti __puti
+index __index
+unknown a1index ( puti __puti );
+endl __endl
+unknown a2endl (         
+        if (!) goto fi_6_29_13;
+        sieve __sieve
+        index __index
+fi_6_29_13:;
+index __index
+index __index
+int i14
+
+while_6_28_1:;
+        
+        if (!) goto break_6_28_21
+        goto while_6_28_1
+break_6_28_21):;
+        int __primeint i15
+        (null)  = [] __int;
+int i16
+        (null)  = int __index;
+index __index
+int i17
+
+sieve __sieve
+index __index
+int i18
+index __index
+index __index
+int i19
+
+while_6_10_1:;
+        
+        if (!) goto break_6_10_21
+        goto while_6_10_1
+break_6_10_21):;
+int i20
+        (null)  = int __prime;
+prime __prime
+int i21
+
+sieve __sieve
+prime __prime
+index __index
+prime __prime
+int i22
+
+index __index
+int i23
+
+sieve __sieve
+index __index
+int i24
+index _ _index
+index __index
+prime __prime
+
+while_6_19_7:;
+        
+        if (!) goto break_6_19_27
+        goto while_6_19_7
+break_6_19_27):;
+        
+        if (!) goto fi_6_17_13;
+        sieve __sieve
+        prime __prime
+fi_6_17_13:;
+prime __prime
+prime __prime
+int i25
+
+while_6_16_1:;
+        
+        if (!) goto break_6_16_21
+        goto while_6_16_1
+break_6_16_21):;
+index __index
+int i26
+index __index
+int i27
+
+sieve __sieve
+index __index
+puti __puti
+index __index
+unknown a3index ( puti __puti );
+endl __endl
+unknown a4endl (         
+        if (!) goto fi_6_29_13;
+        sieve __sieve
+        index __index
+fi_6_29_13:;
+index __index
+index __index
+int i28
+
+while_6_28_1:;
+        
+        if (!) goto break_6_28_21
+        goto while_6_28_1
+break_6_28_21):;
+int i29
+        (null)  = [] __int;
+int i30
+        (null)  = int __index;
+index __index
+int i31
+
+sieve __sieve
+index __index
+int i32
+index __index
+index __index
+int i33
+
+while_6_10_1:;
+        
+        if (!) goto break_6_10_21
+        goto while_6_10_1
+break_6_10_21):;
+int i34
+        (null)  = int __prime;
+prime __prime
+int i35
+
+sieve __sieve
+prime __prime
+index __index
+prime __prime
+int i36
+
+index __index
+int i37
+
+sieve __sieve
+index __index
+int i38
+index _ _index
+index __index
+prime __prime
+
+while_6_19_7:;
+        
+        if (!) goto break_6_19_27
+        goto while_6_19_7
+break_6_19_27):;
+        
+        if (!) goto fi_6_17_13;
+        sieve __sieve
+        prime __prime
+fi_6_17_13:;
+prime __prime
+prime __prime
+int i39
+
+while_6_16_1:;
+        
+        if (!) goto break_6_16_21
+        goto while_6_16_1
+break_6_16_21):;
+index __index
+int i40
+index __index
+int i41
+
+sieve __sieve
+index __index
+puti __puti
+index __index
+unknown a5index ( puti __puti );
+endl __endl
+unknown a6endl (         
+        if (!) goto fi_6_29_13;
+        sieve __sieve
+        index __index
+fi_6_29_13:;
+index __index
+index __index
+int i42
+
+while_6_28_1:;
+        
+        if (!) goto break_6_28_21
+        goto while_6_28_1
+break_6_28_21):;
+int i43
+        (null)  = [] __int;
+int i44
+        (null)  = int __index;
+index __index
+int i45
+
+sieve __sieve
+index __index
+int i46
+index __index
+index __index
+int i47
+
+while_6_10_1:;
+        
+        if (!) goto break_6_10_21
+        goto while_6_10_1
+break_6_10_21):;
+int i48
+        (null)  = int __prime;
+prime __prime
+int i49
+
+sieve __sieve
+prime __prime
+index __index
+prime __prime
+int i50
+
+index __index
+int i51
+
+sieve __sieve
+index __index
+int i52
+index _ _index
+index __index
+prime __prime
+
+while_6_19_7:;
+        
+        if (!) goto break_6_19_27
+        goto while_6_19_7
+break_6_19_27):;
+        
+        if (!) goto fi_6_17_13;
+        sieve __sieve
+        prime __prime
+fi_6_17_13:;
+prime __prime
+prime __prime
+int i53
+
+while_6_16_1:;
+        
+        if (!) goto break_6_16_21
+        goto while_6_16_1
+break_6_16_21):;
+index __index
+int i54
+index __index
+int i55
+
+sieve __sieve
+index __index
+puti __puti
+index __index
+unknown a7index ( puti __puti );
+endl __endl
+unknown a8endl (         
+        if (!) goto fi_6_29_13;
+        sieve __sieve
+        index __index
+fi_6_29_13:;
+index __index
+index __index
+int i56
+
+while_6_28_1:;
+        
+        if (!) goto break_6_28_21
+        goto while_6_28_1
+break_6_28_21):;
+}

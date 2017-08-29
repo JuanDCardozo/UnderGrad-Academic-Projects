@@ -1,0 +1,96 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = =;
+        char* s13 = while;
+        char* s14 = (;
+        char* s15 = (;
+        int __numberint i1
+        (null)  = int __number;
+number __number
+int i2
+
+puti __puti
+number __number
+unknown a1number ( puti __puti );
+putc __putc
+int i3
+unknown a2'\n' ( putc __putc );
+number __number
+number __number
+number __number
+
+while_6_6_1:;
+        
+        if (!) goto break_6_6_20
+        goto while_6_6_1
+break_6_6_20):;
+puti __puti
+number __number
+unknown a3number ( puti __puti );
+putc __putc
+int i4
+unknown a4'\n' ( putc __putc );
+int i5
+        (null)  = int __number;
+number __number
+int i6
+
+puti __puti
+number __number
+unknown a5number ( puti __puti );
+putc __putc
+int i7
+unknown a6'\n' ( putc __putc );
+number __number
+number __number
+number __number
+
+while_6_6_1:;
+        
+        if (!) goto break_6_6_20
+        goto while_6_6_1
+break_6_6_20):;
+puti __puti
+number __number
+unknown a7number ( puti __puti );
+putc __putc
+int i8
+unknown a8'\n' ( putc __putc );
+int i9
+        (null)  = int __number;
+number __number
+int i10
+
+puti __puti
+number __number
+unknown a9number ( puti __puti );
+putc __putc
+int i11
+unknown a10'\n' ( putc __putc );
+number __number
+number __number
+number __number
+
+while_6_6_1:;
+        
+        if (!) goto break_6_6_20
+        goto while_6_6_1
+break_6_6_20):;
+puti __puti
+number __number
+unknown a11number ( puti __puti );
+putc __putc
+int i12
+unknown a12'\n' ( putc __putc );
+}

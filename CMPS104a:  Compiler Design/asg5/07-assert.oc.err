@@ -1,0 +1,11 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+¨iš:4.8: invalid source character (")
+¨iš:4.13: invalid source character (")
+¨iš:4.40: invalid source character (")
+¨iš:4.41: invalid source character (\)
+¨iš:4.42: invalid source character (")
+¨iš:4.47: invalid source character (\)
+¨iš:4.48: invalid source character (")
+¨iš:4.57: invalid source character (")
+¨iš:4.60: invalid source character (")
+¨iš:4.73: invalid source character (")

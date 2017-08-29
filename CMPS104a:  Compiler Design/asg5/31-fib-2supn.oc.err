@@ -1,0 +1,8 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+¨Y|:17.10: invalid source character (")
+¨Y|:17.21: invalid source character (")
+¨Y|:17.23: syntax error, unexpected ';', expecting ')' or ','
+¨Y|:19.10: invalid source character (")
+¨Y|:19.15: invalid source character (")
+¨Y|:19.16: syntax error, unexpected ')'
+¨Y|:23.1: syntax error, unexpected '}'

@@ -1,0 +1,76 @@
+****************************************************************************
+Name: Juan D. Cardozo
+Cruz I.D: jcardozo
+Student I.D: 1362585
+Programming Assignment: pa02
+******************************************************************************
+"I have read and understood te Academic  Misconduct Policy for Undergraduates,
+at the related sections 102.01-102.016 and 105.15 of the Uc Santa Cruz Student
+Policies and Regulations Handbook, and the related sections of the class
+syllabus"
+Juan D. Cardozo
+*******************************************************************************
+"I wrote this assignment using only permitted sources that do not require 
+citation, according to the syllabus"
+Juan D. Cardozo
+******************************************************************************
+Submitted Files:
+	  1. dfs02.c
+	  2. dfsTrace.c
+	  3. dfsTrace.h
+	  4. loadGraph.c
+	  5. loadGraph.h
+	  6. intList.c
+	  7. intList.h
+	  8. edgeList.c
+	  9. edgeList.h
+	 10. README
+	 11. Makefile
+	 12. Input Files
+*****************************************************************************
+How to Compile:
+
+The Makefile should compile all the neccesary files using make. It also has a clean
+functionality and a submit functionality.
+
+*****************************************************************************
+How to Run:
+The only thing it should be able to function without throwing out an error is a directed
+unweighted graph. It does not print the array yet. 
+
+*****************************************************************************
+Description of Files
+dfs02.c:
+
+This program reads an input file and parses the data into an array of linked
+lists in which we keep track of the vertices and the adjacent vertices to them. Then 
+do a deep search first tree traversal and it will print out the information to stdout. 
+This is accomplished by implmenting intList.c which is a linked list ADT.
+
+dfsTrace.c/dfsTrace.h
+
+This declares and implements the deep first search trace and then prints out the information 
+for each of the vertices and edges.
+
+loadGraph.c/loadGraph.h
+It initialized the adjecency arrays and fills in the vertices and its edges.
+
+intList.c/intList.h
+ADT to create linkedLists to create adjecency 
+
+edgeList.c/edgeList.h
+Creates linkedlists with weights
+
+*****************************************************************************
+Test Files/ Input Files:
+
+I only submitted input files, I did not do test files. There is one input file
+with weights and another without weights.
+
+*****************************************************************************
+Known Bugs:
+
+I did not implemented the weighted list functionality and I did not finish 
+dsfTrace.c. I tried to separate loadGraph.c but I was only able to do the initList
+( which makes the array be intNil). I commented out all the code that I was not able
+to finish.

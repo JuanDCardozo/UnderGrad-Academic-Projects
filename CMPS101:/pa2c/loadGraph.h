@@ -1,0 +1,60 @@
+/* ******************************************************************
+ * Name: Juan D. Cardozo
+ * Cruz I.D: jcardozo
+ * Student I.D: 1362585
+ * Assigment: pa2
+ * File: loadGraph.h
+ * Purpose: 
+ ****************************************************************** */
+
+#ifndef C101LoadGraph_H
+#define C101LoadGraph_H
+
+// Standard Libraries
+#include <stdio.h>
+#include <stdlib.h>
+
+// Declare User Libraries
+#include "intList.h"
+#include "edgeList.h"
+
+/* Manipulation function.
+ * Preconditions: size != 0 
+ * Postconditions: size != 0
+ */
+//void initIntList(int size, IntList adjVertices);
+
+/* Manipulation function.
+ * Preconditions: size != 0
+ * Postconditions: size != 0
+ */
+//void initEdgeList(int size, EdgeList adjVertices);
+
+ /* Manipulation function.
+ * Preconditions: adjVertices is not intNil and size bigger than 1.
+ * Postconditions: None
+ */
+ void loadIntList(int size,IntList* adjVertices, char* file);
+	
+
+/* Manipulation function.
+ * Preconditions: adjVertices is not intNil and size bigger than 1.
+ * Postconditions: None
+ */
+ void loadEdgeList(int size,EdgeList* adjVertices, char* file);
+ 
+/* Procedure
+ * Preconditions: adjVertices is not intNil and size bigger than 1.
+ * Postconditions: None
+ */
+void printIntList(int size, IntList* adjVertices);
+
+
+/* Procedure.
+ * Preconditions: adjVertices is not edgeNil and size bigger than 1.
+ * Postconditions: None
+ */
+void printEdgeList(int size, EdgeList* adjVertices);
+
+#endif
+

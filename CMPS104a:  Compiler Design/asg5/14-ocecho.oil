@@ -1,0 +1,82 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = =;
+        char* s13 = =;
+        char* s14 = while;
+        char* s15 = (;
+        [] __string        int __argigetargv __getargv
+unknown a1getargv (         (null)  = [] __string;
+int i1
+        (null)  = int __argi;
+argv __argv
+argi __argi
+
+argi __argi
+int i2
+
+putc __putc
+int i3
+unknown a2' ' ( putc __putc );
+        
+        if (!) goto fi_6_8_13;
+        argi __argi
+        int i4
+fi_6_8_13:;
+puts __puts
+argv __argv
+argi __argi
+unknown a3[ ( puts __puts );
+argi __argi
+argi __argi
+int i5
+
+while_6_7_1:;
+        
+        if (!) goto break_6_7_28
+        goto while_6_7_1
+break_6_7_28):;
+endl __endl
+unknown a4endl ( getargv __getargv
+unknown a5getargv (         (null)  = [] __string;
+int i6
+        (null)  = int __argi;
+argv __argv
+argi __argi
+
+argi __argi
+int i7
+
+putc __putc
+int i8
+unknown a6' ' ( putc __putc );
+        
+        if (!) goto fi_6_8_13;
+        argi __argi
+        int i9
+fi_6_8_13:;
+puts __puts
+argv __argv
+argi __argi
+unknown a7[ ( puts __puts );
+argi __argi
+argi __argi
+int i10
+
+while_6_7_1:;
+        
+        if (!) goto break_6_7_28
+        goto while_6_7_1
+break_6_7_28):;
+endl __endl
+unknown a8endl ( }

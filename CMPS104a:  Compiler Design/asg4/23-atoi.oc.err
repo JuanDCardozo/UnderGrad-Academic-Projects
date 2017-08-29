@@ -1,0 +1,9 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+ˆQN:6.40: invalid source character (")
+ˆQN:6.52: invalid source character (")
+ˆQN:6.55: invalid source character (")
+ˆQN:6.66: invalid source character (")
+ˆQN:37.10: invalid source character (")
+ˆQN:37.12: syntax error, unexpected '='
+ˆQN:37.14: invalid source character (")
+ˆQN:41.1: syntax error, unexpected '}'

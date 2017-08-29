@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="description"> ImageButton(Circle or Cross)</string>
+    <string name="button_text">New Game</string>
+    <string name="crossWin">X Won!</string>
+    <string name="circleWin">O Won!</string>
+    <string name="tie">It\'s a tie!</string>
+</resources>

@@ -1,0 +1,148 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+#include<assert.h>
+
+#define MAX_STRING_LENGTH 100
+
+// Declare variables
+int lineNumber = 1;
+int alphaCount = 0;
+int digitCount = 0;
+int wSpaceCount = 0;
+int punctCount = 0;
+
+// function prototype 
+void extract_char(char* s, char* a, char* d, char* p, char* w);
+void extract_alpha(char* s, char* a);
+void extract_digit(char* s, char* d);
+void extract_punct(char* s, char* p);
+void extract_wSpace(char* s, char* w);
+
+// function main which takes command line arguments
+
+int main(int argc, char* argv[])
+{
+    
+    FILE* in; // handle for input file
+    FILE* out; // handle for output file
+    char* line; // string holding input line
+    char* alpha; // string holding all alphabetic chars
+    char* digit; // string holding all numbers
+    char* punct; // string holding all punctuation char
+    char* wSpace; // string to hold white space
+
+    // check command line for correct number of arguments
+    if (argc != 3) {
+        printf("Usage: %s input-file output-file\n", argv[0]);
+        exit(EXIT_FAILURE);
+    }
+
+    // open input file for reading
+    if ((in = fopen(argv[1], "r")) == NULL) {
+        printf("Unable to read from file %s\n", argv[1]);
+        exit(EXIT_FAILURE);
+    }
+
+    // open output file for writing
+    if ((out = fopen(argv[2], "w")) == NULL) {
+        printf("Unable to write to file %s\n", argv[2]);
+        exit(EXIT_FAILURE);
+    }
+
+    // allocate strings  on the heap
+    line = calloc(MAX_STRING_LENGTH + 1, sizeof (char));
+    alpha = calloc(MAX_STRING_LENGTH + 1, sizeof (char));
+    digit = calloc(MAX_STRING_LENGTH + 1, sizeof (char));
+    punct = calloc(MAX_STRING_LENGTH + 1, sizeof (char));
+    wSpace = calloc(MAX_STRING_LENGTH + 1, sizeof (char));
+    assert(line != NULL && alpha != NULL && digit != NULL && punct != NULL && wSpace != NULL);
+
+    // read each line in input file, extract punctuation characters
+    while (fgets(line, MAX_STRING_LENGTH, in) != NULL) {
+        fprintf(out, "Line %d contains: \n", lineNumber);
+        extract_char(line, alpha, digit, punct, wSpace);
+        fprintf(out, "%d alphabetic character%s %s\n", alphaCount, alphaCount == 1 ? ":" : "s:", alpha);
+        fprintf(out, "%d numeric character%s %s\n", digitCount, digitCount == 1 ? ":" : "s:", digit);
+        fprintf(out, "%d punctuation character%s %s\n", punctCount, punctCount == 1 ? ":" : "s:", punct);
+        fprintf(out, "%d white space character%s %s\n\n", wSpaceCount, wSpaceCount == 1 ? ":" : "s:", wSpace);
+        ++lineNumber;
+	alphaCount = 0;
+	punctCount = 0;
+	wSpaceCount = 0;
+	digitCount = 0;
+    }
+
+    // free heap memory
+    free(line);
+    free(alpha);
+    free(digit);
+    free(punct);
+    free(wSpace);
+
+    // close input and output files
+    fclose(in);
+    fclose(out);
+
+    return EXIT_SUCCESS;
+}
+
+// function definition
+
+void extract_char(char* s, char* a, char* d, char* p, char* w)
+{  
+  extract_alpha(s,a);
+  extract_punct(s,p);
+  extract_wSpace(s,w);
+  extract_digit(s,d);
+}
+
+void extract_alpha(char* s, char* a){
+   int i=0, j=0;
+   while(s[i]!='\0' && i<MAX_STRING_LENGTH){
+     if( isalpha( (int)s[i]) ){
+       a[j++] = s[i];
+       alphaCount++;
+     }
+      i++;
+   }
+   a[j] = '\0';
+}
+
+void extract_digit(char* s, char* d){
+   int i=0, j=0;
+   while(s[i]!='\0' && i<MAX_STRING_LENGTH){
+     if( isdigit( (int)s[i]) ){
+       d[j++] = s[i];
+       digitCount++;
+     }
+      i++;
+   }
+   d[j] = '\0';
+}
+
+void extract_punct(char* s, char* p){
+   int i=0, j=0;
+   while(s[i]!='\0' && i<MAX_STRING_LENGTH){
+     if( ispunct( (int)s[i]) ){
+       p[j++] = s[i];
+       punctCount++;
+     }
+      i++;
+   }
+   p[j] = '\0';
+}
+
+void extract_wSpace(char* s, char* w){
+   int i=0, j=0;
+   while(s[i]!='\0' && i<MAX_STRING_LENGTH){
+     if( isspace( (int)s[i]) ){
+       w[j++] = s[i];
+       wSpaceCount++;
+     }
+      i++;
+   }
+   w[j] = '\0';
+
+}
+

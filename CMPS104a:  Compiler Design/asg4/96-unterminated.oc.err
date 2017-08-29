@@ -1,0 +1,25 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+96-unterminated.oc:5:12: warning: missing terminating " character [enabled by default]
+ string s = "abc;
+            ^
+96-unterminated.oc:6:10: warning: missing terminating ' character [enabled by default]
+ char c = 'a;
+          ^
+96-unterminated.oc:7:5: warning: missing terminating " character [enabled by default]
+ s = "abcd\";
+     ^
+96-unterminated.oc:8:5: warning: missing terminating " character [enabled by default]
+ s = "abc|\
+     ^
+øí:4.12: invalid source character (")
+øí:4.13: invalid source character (\)
+øí:4.14: syntax error, unexpected '*'
+øí:4.16: invalid source character (")
+øí:5.12: invalid source character (")
+øí:6.10: invalid source character (')
+øí:7.5: invalid source character (")
+øí:7.10: invalid source character (\)
+øí:7.11: invalid source character (")
+øí:8.5: invalid source character (")
+øí:8.9: invalid source character (|)
+øí:10.5: syntax error, unexpected TOK_INTCON, expecting TOK_ARRAY or TOK_IDENT

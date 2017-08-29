@@ -1,0 +1,10 @@
+************************************************************************
+* Name: Juan D. Cardozo
+* Cruz-ID: jcardozo
+* Student-ID: 1362585
+* Assignment: Prolog
+* Submitted: functions.pl, README
+* Notes: functions.pl prints out seems to print out all the steps in the itinerary
+* including when it does a redo. But the paths are correct, I believe.
+*
+****************************************************************************

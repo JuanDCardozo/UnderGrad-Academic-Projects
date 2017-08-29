@@ -1,0 +1,400 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = =;
+        char* s13 = =;
+        char* s14 = =;
+        char* s15 = =;
+        char* s16 = while;
+        char* s17 = =;
+        char* s18 = (;
+        char* s19 = (;
+        char* s20 = (;
+        char* s21 = =;
+        [] __intint i1
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i2
+int i3
+fibonacci __fibonacci
+int i4
+int i5
+int i6
+        (null)  = s15;
+index __index
+int i7
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i8
+
+fibonacci __fibonacci
+index __index
+int i9
+
+
+index __index
+index __index
+int i10
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i11
+puti __puti
+index __index
+unknown a1index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a2[ ( puti __puti );
+endl __endl
+unknown a3endl ( index __index
+index __index
+int i12
+
+int i13
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i14
+int i15
+fibonacci __fibonacci
+int i16
+int i17
+int i18
+        (null)  = s15;
+index __index
+int i19
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i20
+
+fibonacci __fibonacci
+index __index
+int i21
+
+
+index __index
+index __index
+int i22
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i23
+puti __puti
+index __index
+unknown a4index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a5[ ( puti __puti );
+endl __endl
+unknown a6endl ( index __index
+index __index
+int i24
+
+        int __indexint i25
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i26
+int i27
+fibonacci __fibonacci
+int i28
+int i29
+int i30
+        (null)  = int __index;
+index __index
+int i31
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i32
+
+fibonacci __fibonacci
+index __index
+int i33
+
+
+index __index
+index __index
+int i34
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i35
+puti __puti
+index __index
+unknown a7index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a8[ ( puti __puti );
+endl __endl
+unknown a9endl ( index __index
+index __index
+int i36
+
+int i37
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i38
+int i39
+fibonacci __fibonacci
+int i40
+int i41
+int i42
+        (null)  = int __index;
+index __index
+int i43
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i44
+
+fibonacci __fibonacci
+index __index
+int i45
+
+
+index __index
+index __index
+int i46
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i47
+puti __puti
+index __index
+unknown a10index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a11[ ( puti __puti );
+endl __endl
+unknown a12endl ( index __index
+index __index
+int i48
+
+int i49
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i50
+int i51
+fibonacci __fibonacci
+int i52
+int i53
+int i54
+        (null)  = int __index;
+index __index
+int i55
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i56
+
+fibonacci __fibonacci
+index __index
+int i57
+
+
+index __index
+index __index
+int i58
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i59
+puti __puti
+index __index
+unknown a13index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a14[ ( puti __puti );
+endl __endl
+unknown a15endl ( index __index
+index __index
+int i60
+
+int i61
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i62
+int i63
+fibonacci __fibonacci
+int i64
+int i65
+int i66
+        (null)  = int __index;
+index __index
+int i67
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i68
+
+fibonacci __fibonacci
+index __index
+int i69
+
+
+index __index
+index __index
+int i70
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i71
+puti __puti
+index __index
+unknown a16index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a17[ ( puti __puti );
+endl __endl
+unknown a18endl ( index __index
+index __index
+int i72
+
+int i73
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i74
+int i75
+fibonacci __fibonacci
+int i76
+int i77
+int i78
+        (null)  = int __index;
+index __index
+int i79
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i80
+
+fibonacci __fibonacci
+index __index
+int i81
+
+
+index __index
+index __index
+int i82
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i83
+puti __puti
+index __index
+unknown a19index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a20[ ( puti __puti );
+endl __endl
+unknown a21endl ( index __index
+index __index
+int i84
+
+int i85
+        (null)  = [] __int;
+fibonacci __fibonacci
+int i86
+int i87
+fibonacci __fibonacci
+int i88
+int i89
+int i90
+        (null)  = int __index;
+index __index
+int i91
+
+fibonacci __fibonacci
+index __index
+fibonacci __fibonacci
+index __index
+int i92
+
+fibonacci __fibonacci
+index __index
+int i93
+
+
+index __index
+index __index
+int i94
+
+while_6_15_1:;
+        
+        if (!) goto break_6_15_20
+        goto while_6_15_1
+break_6_15_20):;
+index __index
+int i95
+puti __puti
+index __index
+unknown a22index ( puti __puti );
+puti __puti
+fibonacci __fibonacci
+index __index
+unknown a23[ ( puti __puti );
+endl __endl
+unknown a24endl ( index __index
+index __index
+int i96
+
+}

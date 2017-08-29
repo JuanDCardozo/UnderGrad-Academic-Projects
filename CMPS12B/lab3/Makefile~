@@ -1,0 +1,27 @@
+# Name: Juan D. Cardozo
+# Student I.D: 1362585
+# Cruz I.D: jcardozo
+# Section: Mondays 6-8
+# Lab 3
+# Makefile
+
+FLAGS = -std=c99 -Wall
+SOURCES = FileReverse.c
+EXTRA =  README Makefile
+OBJECTS = FileReverse.o
+EXEBIN = FileReverse
+SUBMIT = submit cmps012b-pt.s15 lab2
+
+all: $(EXEBIN)
+
+$(EXEBIN) : $(OBJECTS)
+	gcc -o $(EXEBIN) $(OBJECTS)
+
+$(OBJECTS) : $(SOURCES)
+	gcc -c $(FLAGS) $(SOURCES)
+
+clean:
+	rm -f $(EXEBIN) $(OBJECTS)
+
+submit: $(SOURCES)
+	$(SUBMIT) $(SOURCES) $(EXTRA)

@@ -1,0 +1,6 @@
+int (3.4.1) {0} int const 
+int (3.5.1) {0} int const 
+c (3.6.5) {0} int variable lval 
+void (3.7.1) {0} void function 
+
+n (3.8.6) {0} void variable lval 

@@ -1,0 +1,518 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = ;
+        char* s13 = =;
+        char* s14 = =;
+        char* s15 = (;
+        char* s16 = (;
+        char* s17 = =;
+        int __argi        [] __stringstr __str
+
+__assert_fail ____assert_fail
+str __str
+
+int i1
+atoi __atoi
+
+int i2
+unknown a16 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_6_9;
+        
+fi_6_6_9:;
+int i3
+        (null)  = ;
+int i4
+        (null)  = ;
+int i5
+        (null)  = ;
+str __str
+int i6
+int i7
+
+str __str
+int i8
+int i9
+
+digit __digit
+digit __digit
+int i10
+
+neg __neg
+int i11
+        
+        if (!) goto fi_6_11_18;
+                int i12
+fi_6_11_18:;
+int i13
+        (null)  = ;
+contin __contin
+str __str
+digit __digit
+int i14
+
+contin __contin
+int i15
+str __str
+digit __digit
+        (null)  = ;
+digit __digit
+digit __digit
+int i16
+
+c __c
+int i17
+
+contin __contin
+int i18
+c __c
+int i19
+
+contin __contin
+int i20
+num __num
+num __num
+int i21
+
+c __c
+
+int i22
+
+        
+        if (!) goto else_6_23_24;
+        c __c
+        int i23
+goto fi_6_23_24:;
+else_6_23_24:;
+        c __c
+        int i24
+fi_6_23_24:;
+        
+        if (!) goto else_6_22_19;
+        c __c
+        int i25
+goto fi_6_22_19:;
+else_6_22_19:;
+        c __c
+        int i26
+fi_6_22_19:;
+        
+        if (!) goto else_6_17_25;
+                int i27
+goto fi_6_17_25:;
+else_6_17_25:;
+                int i28
+fi_6_17_25:;
+while_6_16_7:;
+        if (!contin __contin) goto break_6_16_22
+        goto while_6_16_7
+break_6_16_22):;
+neg __neg
+num __num
+num __num
+
+        if (!neg __neg) goto fi_6_27_11;
+fi_6_27_11:;
+        
+        if (!) goto fi_6_10_15;
+                int i29
+fi_6_10_15:;
+num __num
+return num __num;
+int i30
+        (null)  = int __argi;
+getargv __getargv
+unknown a2getargv (         (null)  = [] __string;
+puti __puti
+atoi __atoi
+arg __arg
+unknown a3arg ( atoi __atoi );
+unknown a4( ( puti __puti );
+endl __endl
+unknown a5endl ( argi __argi
+argi __argi
+int i31
+
+str __str
+
+__assert_fail ____assert_fail
+str __str
+
+int i32
+atoi __atoi
+
+int i33
+unknown a66 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_6_9;
+        
+fi_6_6_9:;
+int i34
+        (null)  = ;
+int i35
+        (null)  = ;
+int i36
+        (null)  = ;
+str __str
+int i37
+int i38
+
+str __str
+int i39
+int i40
+
+digit __digit
+digit __digit
+int i41
+
+neg __neg
+int i42
+        
+        if (!) goto fi_6_11_18;
+                int i43
+fi_6_11_18:;
+int i44
+        (null)  = ;
+contin __contin
+str __str
+digit __digit
+int i45
+
+contin __contin
+int i46
+str __str
+digit __digit
+        (null)  = ;
+digit __digit
+digit __digit
+int i47
+
+c __c
+int i48
+
+contin __contin
+int i49
+c __c
+int i50
+
+contin __contin
+int i51
+num __num
+num __num
+int i52
+
+c __c
+
+int i53
+
+        
+        if (!) goto else_6_23_24;
+        c __c
+        int i54
+goto fi_6_23_24:;
+else_6_23_24:;
+        c __c
+        int i55
+fi_6_23_24:;
+        
+        if (!) goto else_6_22_19;
+        c __c
+        int i56
+goto fi_6_22_19:;
+else_6_22_19:;
+        c __c
+        int i57
+fi_6_22_19:;
+        
+        if (!) goto else_6_17_25;
+                int i58
+goto fi_6_17_25:;
+else_6_17_25:;
+                int i59
+fi_6_17_25:;
+while_6_16_7:;
+        if (!contin __contin) goto break_6_16_22
+        goto while_6_16_7
+break_6_16_22):;
+neg __neg
+num __num
+num __num
+
+        if (!neg __neg) goto fi_6_27_11;
+fi_6_27_11:;
+        
+        if (!) goto fi_6_10_15;
+                int i60
+fi_6_10_15:;
+num __num
+return num __num;
+int i61
+        (null)  = int __argi;
+getargv __getargv
+unknown a7getargv (         (null)  = [] __string;
+puti __puti
+atoi __atoi
+arg __arg
+unknown a8arg ( atoi __atoi );
+unknown a9( ( puti __puti );
+endl __endl
+unknown a10endl ( argi __argi
+argi __argi
+int i62
+
+str __str
+
+__assert_fail ____assert_fail
+str __str
+
+int i63
+atoi __atoi
+
+int i64
+unknown a116 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_6_9;
+        
+fi_6_6_9:;
+int i65
+        (null)  = ;
+int i66
+        (null)  = ;
+int i67
+        (null)  = ;
+str __str
+int i68
+int i69
+
+str __str
+int i70
+int i71
+
+digit __digit
+digit __digit
+int i72
+
+neg __neg
+int i73
+        
+        if (!) goto fi_6_11_18;
+                int i74
+fi_6_11_18:;
+int i75
+        (null)  = ;
+contin __contin
+str __str
+digit __digit
+int i76
+
+contin __contin
+int i77
+str __str
+digit __digit
+        (null)  = ;
+digit __digit
+digit __digit
+int i78
+
+c __c
+int i79
+
+contin __contin
+int i80
+c __c
+int i81
+
+contin __contin
+int i82
+num __num
+num __num
+int i83
+
+c __c
+
+int i84
+
+        
+        if (!) goto else_6_23_24;
+        c __c
+        int i85
+goto fi_6_23_24:;
+else_6_23_24:;
+        c __c
+        int i86
+fi_6_23_24:;
+        
+        if (!) goto else_6_22_19;
+        c __c
+        int i87
+goto fi_6_22_19:;
+else_6_22_19:;
+        c __c
+        int i88
+fi_6_22_19:;
+        
+        if (!) goto else_6_17_25;
+                int i89
+goto fi_6_17_25:;
+else_6_17_25:;
+                int i90
+fi_6_17_25:;
+while_6_16_7:;
+        if (!contin __contin) goto break_6_16_22
+        goto while_6_16_7
+break_6_16_22):;
+neg __neg
+num __num
+num __num
+
+        if (!neg __neg) goto fi_6_27_11;
+fi_6_27_11:;
+        
+        if (!) goto fi_6_10_15;
+                int i91
+fi_6_10_15:;
+num __num
+return num __num;
+int i92
+        (null)  = int __argi;
+getargv __getargv
+unknown a12getargv (         (null)  = [] __string;
+puti __puti
+atoi __atoi
+arg __arg
+unknown a13arg ( atoi __atoi );
+unknown a14( ( puti __puti );
+endl __endl
+unknown a15endl ( argi __argi
+argi __argi
+int i93
+
+}
+__int atoi(
+        string _0_str)
+{
+str __str
+
+__assert_fail ____assert_fail
+str __str
+
+int i94
+atoi __atoi
+
+int i95
+unknown a166 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_6_9;
+        
+fi_6_6_9:;
+int i96
+        (null)  = ;
+int i97
+        (null)  = ;
+int i98
+        (null)  = ;
+str __str
+int i99
+int i100
+
+str __str
+int i101
+int i102
+
+digit __digit
+digit __digit
+int i103
+
+neg __neg
+int i104
+        
+        if (!) goto fi_6_11_18;
+                int i105
+fi_6_11_18:;
+int i106
+        (null)  = ;
+contin __contin
+str __str
+digit __digit
+int i107
+
+contin __contin
+int i108
+str __str
+digit __digit
+        (null)  = ;
+digit __digit
+digit __digit
+int i109
+
+c __c
+int i110
+
+contin __contin
+int i111
+c __c
+int i112
+
+contin __contin
+int i113
+num __num
+num __num
+int i114
+
+c __c
+
+int i115
+
+        
+        if (!) goto else_6_23_24;
+        c __c
+        int i116
+goto fi_6_23_24:;
+else_6_23_24:;
+        c __c
+        int i117
+fi_6_23_24:;
+        
+        if (!) goto else_6_22_19;
+        c __c
+        int i118
+goto fi_6_22_19:;
+else_6_22_19:;
+        c __c
+        int i119
+fi_6_22_19:;
+        
+        if (!) goto else_6_17_25;
+                int i120
+goto fi_6_17_25:;
+else_6_17_25:;
+                int i121
+fi_6_17_25:;
+while_6_16_7:;
+        if (!contin __contin) goto break_6_16_22
+        goto while_6_16_7
+break_6_16_22):;
+neg __neg
+num __num
+num __num
+
+        if (!neg __neg) goto fi_6_27_11;
+fi_6_27_11:;
+        
+        if (!) goto fi_6_10_15;
+                int i122
+fi_6_10_15:;
+num __num
+return num __num;
+}

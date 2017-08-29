@@ -1,0 +1,195 @@
+#define __OCLIB_C__
+#include "oclib.oh"struct s_foo{
+        { _fint_int;
+};
+void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = struct;
+        char* s13 = =;
+        char* s14 = =;
+        char* s15 = =;
+        char* s16 = =;
+        char* s17 = ;;
+        char* s18 = (;
+        char* s19 = (;
+        char* s20 = (;
+        char* s21 = (;
+int i1
+        (null)  = s13;
+        (null)  = s14;
+b __b
+int i2
+a __a
+a __a
+b __b
+
+int i3
+
+puti _ð_puti
+a __a
+unknown a1a ( puti _ð_puti );
+putc __putc
+int i4
+unknown a2' ' ( putc __putc );
+puti __puti
+b __b
+unknown a3. ( puti __puti );
+endl __endl
+unknown a4endl (         int __a        foo __bint i5
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i6
+a __a
+a __a
+b __b
+
+int i7
+
+puti _ð_puti
+a __a
+unknown a5a ( puti _ð_puti );
+putc __putc
+int i8
+unknown a6' ' ( putc __putc );
+puti __puti
+b __b
+unknown a7. ( puti __puti );
+endl __endl
+unknown a8endl ( int i9
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i10
+a __a
+a __a
+b __b
+
+int i11
+
+puti _ð_puti
+a __a
+unknown a9a ( puti _ð_puti );
+putc __putc
+int i12
+unknown a10' ' ( putc __putc );
+puti __puti
+b __b
+unknown a11. ( puti __puti );
+endl __endl
+unknown a12endl ( int i13
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i14
+a __a
+a __a
+b __b
+
+int i15
+
+puti _ð_puti
+a __a
+unknown a13a ( puti _ð_puti );
+putc __putc
+int i16
+unknown a14' ' ( putc __putc );
+puti __puti
+b __b
+unknown a15. ( puti __puti );
+endl __endl
+unknown a16endl ( int i17
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i18
+a __a
+a __a
+b __b
+
+int i19
+
+puti _ð_puti
+a __a
+unknown a17a ( puti _ð_puti );
+putc __putc
+int i20
+unknown a18' ' ( putc __putc );
+puti __puti
+b __b
+unknown a19. ( puti __puti );
+endl __endl
+unknown a20endl ( int i21
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i22
+a __a
+a __a
+b __b
+
+int i23
+
+puti _ð_puti
+a __a
+unknown a21a ( puti _ð_puti );
+putc __putc
+int i24
+unknown a22' ' ( putc __putc );
+puti __puti
+b __b
+unknown a23. ( puti __puti );
+endl __endl
+unknown a24endl ( int i25
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i26
+a __a
+a __a
+b __b
+
+int i27
+
+puti _ð_puti
+a __a
+unknown a25a ( puti _ð_puti );
+putc __putc
+int i28
+unknown a26' ' ( putc __putc );
+puti __puti
+b __b
+unknown a27. ( puti __puti );
+endl __endl
+unknown a28endl ( int i29
+        (null)  = int __a;
+        (null)  = foo __b;
+b __b
+int i30
+a __a
+a __a
+b __b
+
+int i31
+
+puti _ð_puti
+a __a
+unknown a29a ( puti _ð_puti );
+putc __putc
+int i32
+unknown a30' ' ( putc __putc );
+puti __puti
+b __b
+unknown a31. ( puti __puti );
+endl __endl
+unknown a32endl ( }

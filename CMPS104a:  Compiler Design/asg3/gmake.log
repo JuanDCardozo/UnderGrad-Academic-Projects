@@ -1,0 +1,8 @@
+checksource README Makefile parser.y scanner.l astree.h   lyutils.h   auxlib.h   stringset.h astree.cpp lyutils.cpp auxlib.cpp stringset.cpp main.cpp
+checksource: line length > 72 characters
+   file "README": 2 errors: lines 1, 8
+   file "auxlib.h": 1 errors: line 51
+   file "main.cpp": 6 errors: lines 34, 36, 95, 97, 155, 157
+   file "stringset.cpp": 1 errors: line 19
+checksource: TOTAL COMPLAINTS: 10
+gmake: [all] Error 1 (ignored)

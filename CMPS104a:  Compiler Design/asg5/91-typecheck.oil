@@ -1,0 +1,1370 @@
+#define __OCLIB_C__
+#include "oclib.oh"struct s_foo{
+        { _fint_int;
+};
+void __ocmain (void) {
+        char* s1 = =;
+        char* s2 = =;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = struct;
+        char* s7 = +;
+        char* s8 = (;
+        char* s9 = (;
+        char* s10 = +;
+        char* s11 = =;
+        char* s12 = =;
+        char* s13 = +;
+        char* s14 = while;
+        char* s15 = return;
+        char* s16 = =;
+        char* s17 = return;
+        char* s18 = =;
+        char* s19 = if;
+        char* s20 = if;
+        [] __int        [] __reference        (null)  = [] __int;
+int i1
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a1f ( f __f
+x __x
+y __y
+int i2
+
+z __z
+unknown a2z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i3
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i4
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i5
+int i6
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i7
+a __a
+b __b
+
+f __f
+x __x
+unknown a3x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i8
+f __f
+y __y
+z __z
+unknown a4z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i9
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a5f ( f __f
+x __x
+y __y
+int i10
+
+z __z
+unknown a6z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i11
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i12
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i13
+int i14
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i15
+a __a
+b __b
+
+f __f
+x __x
+unknown a7x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i16
+f __f
+y __y
+z __z
+unknown a8z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i17
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a9f ( f __f
+x __x
+y __y
+int i18
+
+z __z
+unknown a10z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i19
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i20
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i21
+int i22
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i23
+a __a
+b __b
+
+f __f
+x __x
+unknown a11x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i24
+f __f
+y __y
+z __z
+unknown a12z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i25
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a13f ( f __f
+x __x
+y __y
+int i26
+
+z __z
+unknown a14z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i27
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i28
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i29
+int i30
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i31
+a __a
+b __b
+
+f __f
+x __x
+unknown a15x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i32
+f __f
+y __y
+z __z
+unknown a16z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i33
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a17f ( f __f
+x __x
+y __y
+int i34
+
+z __z
+unknown a18z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i35
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i36
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i37
+int i38
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i39
+a __a
+b __b
+
+f __f
+x __x
+unknown a19x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i40
+f __f
+y __y
+z __z
+unknown a20z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i41
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a21f ( f __f
+x __x
+y __y
+int i42
+
+z __z
+unknown a22z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i43
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i44
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i45
+int i46
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i47
+a __a
+b __b
+
+f __f
+x __x
+unknown a23x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i48
+f __f
+y __y
+z __z
+unknown a24z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i49
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a25f ( f __f
+x __x
+y __y
+int i50
+
+z __z
+unknown a26z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i51
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i52
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i53
+int i54
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i55
+a __a
+b __b
+
+f __f
+x __x
+unknown a27x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i56
+f __f
+y __y
+z __z
+unknown a28z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i57
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a29f ( f __f
+x __x
+y __y
+int i58
+
+z __z
+unknown a30z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i59
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i60
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i61
+int i62
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i63
+a __a
+b __b
+
+f __f
+x __x
+unknown a31x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i64
+f __f
+y __y
+z __z
+unknown a32z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i65
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a33f ( f __f
+x __x
+y __y
+int i66
+
+z __z
+unknown a34z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i67
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i68
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i69
+int i70
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i71
+a __a
+b __b
+
+f __f
+x __x
+unknown a35x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i72
+f __f
+y __y
+z __z
+unknown a36z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i73
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a37f ( f __f
+x __x
+y __y
+int i74
+
+z __z
+unknown a38z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i75
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i76
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i77
+int i78
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i79
+a __a
+b __b
+
+f __f
+x __x
+unknown a39x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i80
+f __f
+y __y
+z __z
+unknown a40z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i81
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a41f ( f __f
+x __x
+y __y
+int i82
+
+z __z
+unknown a42z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i83
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i84
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i85
+int i86
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i87
+a __a
+b __b
+
+f __f
+x __x
+unknown a43x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i88
+f __f
+y __y
+z __z
+unknown a44z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i89
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a45f ( f __f
+x __x
+y __y
+int i90
+
+z __z
+unknown a46z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i91
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i92
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i93
+int i94
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i95
+a __a
+b __b
+
+f __f
+x __x
+unknown a47x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i96
+f __f
+y __y
+z __z
+unknown a48z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i97
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a49f ( f __f
+x __x
+y __y
+int i98
+
+z __z
+unknown a50z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i99
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i100
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i101
+int i102
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i103
+a __a
+b __b
+
+f __f
+x __x
+unknown a51x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i104
+f __f
+y __y
+z __z
+unknown a52z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i105
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a53f ( f __f
+x __x
+y __y
+int i106
+
+z __z
+unknown a54z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i107
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i108
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i109
+int i110
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i111
+a __a
+b __b
+
+f __f
+x __x
+unknown a55x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i112
+f __f
+y __y
+z __z
+unknown a56z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+        (null)  = [] __int;
+int i113
+        (null)  = [] __reference;
+a __a
+b _€_b
+
+        (null)  = ;
+a __a
+b __b
+
+f __f
+unknown a57f ( f __f
+x __x
+y __y
+int i114
+
+z __z
+unknown a58z ( f __f, x __x,  );
+foo __foo
+bar __bar
+
+a __a
+b __b
+c __c
+d __d
+test __test
+abc __abc
+def __def
+
+ghi __ghi
+
+this __this
+int i115
+a __a
+
+
+hello __hello
+
+a __a
+b __b
+
+f __f
+f __f
+int i116
+
+while_3_21_1:;
+        
+        if (!) goto break_3_21_17
+        goto while_3_21_1
+break_3_21_17):;
+int i117
+int i118
+
+return ;
+a __a
+i __i
+b __b
+j __j
+b __b
+int i119
+a __a
+b __b
+
+f __f
+x __x
+unknown a59x ( f __f );
+        
+        if (!) goto fi_3_26_7;
+        a __a
+        b __b
+fi_3_26_7:;
+a __a
+b __b
+
+y __y
+int i120
+f __f
+y __y
+z __z
+unknown a60z ( f __f, y __y );
+        
+        if (!) goto else_3_27_7;
+        a __a
+        b __b
+goto fi_3_27_7:;
+else_3_27_7:;
+        a __a
+        b __b
+fi_3_27_7:;
+}
+__void foo(
+        [] _0_int,
+        [] _0_int)
+{
+a __a
+b _€_b
+
+        (null)  = ;
+}

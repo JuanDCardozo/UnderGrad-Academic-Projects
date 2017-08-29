@@ -1,0 +1,6 @@
+checksource: line length > 72 characters
+   file "README": 2 errors: lines 1, 8
+   file "auxlib.h": 1 errors: line 51
+   file "main.cpp": 6 errors: lines 34, 36, 95, 97, 155, 157
+   file "stringset.cpp": 1 errors: line 19
+checksource: TOTAL COMPLAINTS: 10

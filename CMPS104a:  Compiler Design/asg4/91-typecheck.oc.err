@@ -1,0 +1,5 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+È–ù:20.17: invalid source character (")
+È–ù:20.23: invalid source character (")
+È–ù:25.8: syntax error, unexpected TOK_TRUE
+È–ù:25.29: syntax error, unexpected '}'

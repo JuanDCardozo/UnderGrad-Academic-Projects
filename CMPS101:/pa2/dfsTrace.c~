@@ -1,0 +1,42 @@
+/* ******************************************************************
+ * Name: Juan D. Cardozo
+ * Cruz I.D: jcardozo
+ * Student I.D: 1362585
+ * Assigment: pa02
+ * File: dfsTrace.c
+ * Purpose: 
+ ****************************************************************** */
+ // Include Standard Libraries
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Include User Lirbraries
+#include "loadGraph.h"
+#include "edgeList.h"
+#include "intList.h"
+#include "dfsTrace.h"
+
+
+int dfsTrace(int v, IntList* adjVertices,int* color, int* dtime, int* ftime, int* parent){
+  int w;
+  IntList remAdj;
+  int ans;
+  
+  // Set as visited and initialize variable
+  color[v] = gray;
+  dtime[v] = 0;
+  parent[v] = -1;
+  remAdj = adjVertices[v];
+  while(remAdj != intNil){
+    w = intFrist(remAdj);
+    if(color[w] == white){
+      int wAns = dfsTrace(w,adjVertices,color,dtime,ftime,parent);
+    }else{
+      remAdj = intRest(remAdj);
+    }
+  }
+}
+
+printDfsTrace(int i);
+

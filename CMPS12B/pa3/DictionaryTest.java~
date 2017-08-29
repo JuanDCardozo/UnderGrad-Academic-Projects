@@ -1,0 +1,210 @@
+/** ***************************************************************************
+* Name: Juan D. Cardozo
+* Student I.D: 1362585
+* CRUZ I.D: jcardozo
+* Class: CMPS 12M
+* Section: Mondays 6-8
+* Date: 04/13/2015
+* DictionaryTest.java
+*
+*****************************************************************************/
+public class DictionaryTest{
+    public static void main(String[] args){
+	String s = "";
+	int methodTestPassed = 0;
+	int totalTestPassed = 0;
+	Dictionary A = new Dictionary();
+	Dictionary B = new Dictionary();
+
+	// Test Harness Message
+	System.out.println("------------------------------");
+	System.out.println("Test Harness: Dictionary.java");
+	System.out.println("------------------------------");
+
+	// Test insert();
+	// Add an  item to list and test for contect  items in Dictionary
+	A.insert("1","a");
+	s += A.lookup("1");
+	if(s.compareTo("a")== 0){
+	    ++methodTestPassed;
+	}
+	s = "";
+	//Add item to list and check that it was added
+	A.insert("2","b");
+	s += A.lookup("2");
+	if(s.compareTo("b") == 0){
+	    ++methodTestPassed;
+	}
+
+	//Print out information about test
+	if(methodTestPassed == 2){
+	    System.out.println("Method insert(): PASSED!");
+	    System.out.println("Tests Passed: (2/2)\n");
+	    System.out.println("Method lookup(): PASSED!");
+	    System.out.println("Tests Passed: (2/2)\n");
+	    totalTestPassed+=2;
+
+	}else{
+	    System.out.println("Method insert(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/2)\n");
+	    System.out.println("Method lookup(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/2)\n");
+	}
+	methodTestPassed = 0;
+
+	//Test for isEmpthy()
+	// If returns false passes test one.
+	if(!A.isEmpty()){
+	   ++ methodTestPassed;
+	}
+	
+	//If returns true then passes test two
+	if(B.isEmpty()){
+	    ++methodTestPassed;
+	}
+
+	//Print out information about test
+	if(methodTestPassed == 2){
+	    System.out.println("Method isEmpthy(): PASSED!");
+	    System.out.println("Tests Passed: (2/2)\n");
+	     ++totalTestPassed;
+	}else{
+	    System.out.println("Method isEmpthy(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/2)\n");
+	}
+	methodTestPassed = 0;
+	
+	// Test for size();
+	// If the size of A is 1 returns passes test
+	if(A.size() ==  2){
+	    ++methodTestPassed;
+	}
+
+	// If it returns zero as the list is empty return true
+	if(B.size() == 0){
+	    ++methodTestPassed;
+	}
+
+	// Add another item to list and test for 3 items in Dictionary
+	A.insert("3","c");
+	if(A.size() == 3){
+	    ++methodTestPassed;
+	}
+
+	//Print out information about test
+	if(methodTestPassed == 3){
+	    System.out.println("Method size(): PASSED!");
+	    System.out.println("Tests Passed: (3/3)\n");
+	     ++totalTestPassed;
+	}else{
+	    System.out.println("Method size(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/3)\n");
+	}
+	methodTestPassed = 0;
+		
+	// Test for delete();
+	//
+	A.delete("1");
+	s = A.lookup("1");
+	if(s == null){
+	    ++methodTestPassed;
+	}
+
+	// If it returns zero as the list is empty return true
+	A.delete("2");
+	s = A.lookup("2");
+	if(s == null){
+	    ++methodTestPassed;
+	}
+
+    //Print out information about test
+	if(methodTestPassed == 2){
+	    System.out.println("Method delete(): PASSED!");
+	    System.out.println("Tests Passed: (2/2)\n");
+	     ++totalTestPassed;
+	}else{
+	    System.out.println("Method delete(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/2)\n");
+	}
+	methodTestPassed = 0;
+	
+	// Test for makeEmpty();
+	// If the size becomes zero again then true 
+	A.insert("1","a");
+	A.insert("2","b");
+	A.makeEmpty();
+	if(A.isEmpty()){
+	    ++methodTestPassed;
+	}
+
+	// If it returns zero as the list is empty return true
+	B.insert("1","a");
+	B.makeEmpty();
+	if(B.isEmpty()){
+	    ++methodTestPassed;
+	}
+
+	// If returns empty then true. Checking on empty dictionary
+	B.makeEmpty();
+	if(B.isEmpty()){
+	    ++methodTestPassed;
+	}
+	
+
+    //Print out information about test
+	if(methodTestPassed == 3){
+	    System.out.println("Method makeEmpty(): PASSED!");
+	    System.out.println("Tests Passed: (3/3)\n");
+	     ++totalTestPassed;
+	}else{
+	    System.out.println("Method makeEmpty(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/3)\n");
+	}
+	methodTestPassed = 0;
+	
+	// Test for toString();
+	// Dictionary A.
+	A.insert("1","a");
+	A.insert("2","b");
+	A.insert("3","c");
+	A.insert("4","d");
+	A.insert("5","e");
+	String dictA = "key= 1 value= a\nkey= 2 value= b\nkey= 3 value= c\nkey= 4 value= d\nkey= 5 value= e\n";
+	
+	s = A.toString();
+	if(s.compareTo(dictA) == 0){
+	    ++methodTestPassed;
+	}
+
+	// Dictionary B
+	B.makeEmpty();
+	s = B.toString();
+	if(s.compareTo("") == 0){
+	    ++methodTestPassed;
+	}
+
+    //Print out information about test
+	if(methodTestPassed == 2){
+	    System.out.println("Method toString(): PASSED!");
+	    System.out.println("Tests Passed: (2/2)\n");
+	     ++totalTestPassed;
+	}else{
+	    System.out.println("Method toString(): FAILED!");
+	    System.out.println("Tests Passed: ("+methodTestPassed+"/2)\n");
+	}
+	methodTestPassed = 0;
+	
+	// Results of Test Harness
+	System.out.println("------------------------------");
+	if(totalTestPassed == 7){
+	    System.out.println("Test Harness Result: PASSED!");
+	    System.out.println("Total Tests Passed: (7/7)");
+
+	}else{
+	    System.out.println("Test Harness Result: FAILED!");
+	    System.out.println("Total Tests Passed: ("+totalTestPassed+"/7)");
+	}
+	System.out.println("------------------------------");
+
+   }
+}

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pebble</string>
+    <string name="safeModeTxt">Safe Mode</string>
+    <string name="alertModeTxt">Alert Mode!</string>
+    <string name="threatModeTxt">Threat Mode!</string>
+    <string name="panicModeTxt">Panic Mode!</string>
+    <string name="safeModeDesc">You feel safe.</string>
+    <string name="alertModeDesc">You feel unsafe/uncomfortable</string>
+    <string name="threatModeDesc">There is an imminent threat to your well being</string>
+    <string name="panicModeDesc">EMERGENCY! 911 was contacted!</string>
+    <string name="Message1">Your friend has indicated that they are in a potentially unsafe situation and wanted you to be aware of their circumstances. Sent via OnWatch.</string>
+    <string name="Message2">Your friend has detected an immediate threat to their well being.</string>
+    <string name="Message2_1"> You are listed as an emergency contact and they wish to inform you of their current situation. Sent via OnWatch.</string>
+    <string name="Message3">Your friend has indicated that they are in an EMERGENCY situation and are requesting aid.</string>
+    <string name="Message3_1"> The authorities have been notified of their most recent location. Sent via Onwatch.</string>
+    <string name="MessageNoThreat1">Your friend has indicated that they are now safe. Sent via OnWatch.</string>
+    <string name="MessageNoThreat2">Your friend has indicated that they are not in danger but still feel unsafe</string>
+    <string name="MessageNoThreat3">Your friend is no longer in an Emergency, but they are still not safe.</string>
+</resources>

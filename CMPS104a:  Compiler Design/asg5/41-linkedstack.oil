@@ -1,0 +1,580 @@
+#define __OCLIB_C__
+#include "oclib.oh"struct s_node{
+        { _fstring_string;
+};
+struct s_stack{
+        { _fnode_node;
+};
+void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = struct;
+        char* s13 = struct;
+        char* s14 = ;
+        char* s15 = ;
+        char* s16 = ;
+        char* s17 = ;
+        char* s18 = =;
+        char* s19 = =;
+        char* s20 = =;
+        char* s21 = while;
+        char* s22 = while;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i1
+linkedstack __linkedstack
+
+int i2
+unknown a115 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_15_9;
+        
+fi_6_15_9:;
+stack _@_stack
+
+return ;
+        (null)  = ;
+stack __stack
+stack __stack
+return stack __stack;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i3
+linkedstack __linkedstack
+
+int i4
+unknown a226 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_26_9;
+        
+fi_6_26_9:;
+        (null)  = ;
+tmp __tmp
+str __str
+tmp __tmp
+stack __stack
+stack __stack
+tmp __tmp
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i5
+linkedstack __linkedstack
+
+int i6
+unknown a334 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_34_9;
+        
+fi_6_34_9:;
+empty __empty
+stack __stack
+unknown a4stack ( empty __empty );
+__assert_fail ____assert_fail
+empty __empty
+stack __stack
+unknown a5stack ( empty __empty );
+int i7
+linkedstack __linkedstack
+
+int i8
+unknown a635 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_35_9;
+        fi_6_35_9:;
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+tmp __tmp
+return tmp __tmp;
+getargv __getargv
+unknown a7getargv (         (null)  = s18;
+new_stack __new_stack
+unknown a8new_stack (         (null)  = s19;
+int i9
+        (null)  = s20;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a9[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i10
+
+while_6_47_1:;
+        
+        if (!) goto break_6_47_28
+        goto while_6_47_1
+break_6_47_28):;
+empty __empty
+stack __stack
+unknown a10stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a11stack ( pop __pop );
+unknown a12( ( puts __puts );
+endl __endl
+unknown a13endl ( while_6_52_1:;
+        
+        if (!) goto break_6_52_25
+        goto while_6_52_1
+break_6_52_25):;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i11
+linkedstack __linkedstack
+
+int i12
+unknown a1415 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_15_9;
+        
+fi_6_15_9:;
+stack _@_stack
+
+return ;
+        (null)  = ;
+stack __stack
+stack __stack
+return stack __stack;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i13
+linkedstack __linkedstack
+
+int i14
+unknown a1526 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_26_9;
+        
+fi_6_26_9:;
+        (null)  = ;
+tmp __tmp
+str __str
+tmp __tmp
+stack __stack
+stack __stack
+tmp __tmp
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i15
+linkedstack __linkedstack
+
+int i16
+unknown a1634 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_34_9;
+        
+fi_6_34_9:;
+empty __empty
+stack __stack
+unknown a17stack ( empty __empty );
+__assert_fail ____assert_fail
+empty __empty
+stack __stack
+unknown a18stack ( empty __empty );
+int i17
+linkedstack __linkedstack
+
+int i18
+unknown a1935 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_35_9;
+        fi_6_35_9:;
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+tmp __tmp
+return tmp __tmp;
+getargv __getargv
+unknown a20getargv (         (null)  = s18;
+new_stack __new_stack
+unknown a21new_stack (         (null)  = s19;
+int i19
+        (null)  = s20;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a22[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i20
+
+while_6_47_1:;
+        
+        if (!) goto break_6_47_28
+        goto while_6_47_1
+break_6_47_28):;
+empty __empty
+stack __stack
+unknown a23stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a24stack ( pop __pop );
+unknown a25( ( puts __puts );
+endl __endl
+unknown a26endl ( while_6_52_1:;
+        
+        if (!) goto break_6_52_25
+        goto while_6_52_1
+break_6_52_25):;
+        [] _        stack __stack        int __argistack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i21
+linkedstack __linkedstack
+
+int i22
+unknown a2715 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_15_9;
+        
+fi_6_15_9:;
+stack _@_stack
+
+return ;
+        (null)  = ;
+stack __stack
+stack __stack
+return stack __stack;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i23
+linkedstack __linkedstack
+
+int i24
+unknown a2826 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_26_9;
+        
+fi_6_26_9:;
+        (null)  = ;
+tmp __tmp
+str __str
+tmp __tmp
+stack __stack
+stack __stack
+tmp __tmp
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i25
+linkedstack __linkedstack
+
+int i26
+unknown a2934 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_34_9;
+        
+fi_6_34_9:;
+empty __empty
+stack __stack
+unknown a30stack ( empty __empty );
+__assert_fail ____assert_fail
+empty __empty
+stack __stack
+unknown a31stack ( empty __empty );
+int i27
+linkedstack __linkedstack
+
+int i28
+unknown a3235 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_35_9;
+        fi_6_35_9:;
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+tmp __tmp
+return tmp __tmp;
+getargv __getargv
+unknown a33getargv (         (null)  = [] _;
+new_stack __new_stack
+unknown a34new_stack (         (null)  = stack __stack;
+int i29
+        (null)  = int __argi;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a35[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i30
+
+while_6_47_1:;
+        
+        if (!) goto break_6_47_28
+        goto while_6_47_1
+break_6_47_28):;
+empty __empty
+stack __stack
+unknown a36stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a37stack ( pop __pop );
+unknown a38( ( puts __puts );
+endl __endl
+unknown a39endl ( while_6_52_1:;
+        
+        if (!) goto break_6_52_25
+        goto while_6_52_1
+break_6_52_25):;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i31
+linkedstack __linkedstack
+
+int i32
+unknown a4015 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_15_9;
+        
+fi_6_15_9:;
+stack _@_stack
+
+return ;
+        (null)  = ;
+stack __stack
+stack __stack
+return stack __stack;
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i33
+linkedstack __linkedstack
+
+int i34
+unknown a4126 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_26_9;
+        
+fi_6_26_9:;
+        (null)  = ;
+tmp __tmp
+str __str
+tmp __tmp
+stack __stack
+stack __stack
+tmp __tmp
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i35
+linkedstack __linkedstack
+
+int i36
+unknown a4234 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_34_9;
+        
+fi_6_34_9:;
+empty __empty
+stack __stack
+unknown a43stack ( empty __empty );
+__assert_fail ____assert_fail
+empty __empty
+stack __stack
+unknown a44stack ( empty __empty );
+int i37
+linkedstack __linkedstack
+
+int i38
+unknown a4535 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_35_9;
+        fi_6_35_9:;
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+tmp __tmp
+return tmp __tmp;
+getargv __getargv
+unknown a46getargv (         (null)  = [] _;
+new_stack __new_stack
+unknown a47new_stack (         (null)  = stack __stack;
+int i39
+        (null)  = int __argi;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a48[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i40
+
+while_6_47_1:;
+        
+        if (!) goto break_6_47_28
+        goto while_6_47_1
+break_6_47_28):;
+empty __empty
+stack __stack
+unknown a49stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a50stack ( pop __pop );
+unknown a51( ( puts __puts );
+endl __endl
+unknown a52endl ( while_6_52_1:;
+        
+        if (!) goto break_6_52_25
+        goto while_6_52_1
+break_6_52_25):;
+}
+__int empty(
+        stack _0_stack)
+{
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i41
+linkedstack __linkedstack
+
+int i42
+unknown a5315 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_15_9;
+        
+fi_6_15_9:;
+stack _@_stack
+
+return ;
+}
+__stack new_stack)
+{
+        (null)  = ;
+stack __stack
+stack __stack
+return stack __stack;
+}
+__void push(
+        stack _0_stack,
+        string _0_str)
+{
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i43
+linkedstack __linkedstack
+
+int i44
+unknown a5426 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_26_9;
+        
+fi_6_26_9:;
+        (null)  = ;
+tmp __tmp
+str __str
+tmp __tmp
+stack __stack
+stack __stack
+tmp __tmp
+}
+__string pop(
+        stack _0_stack)
+{
+stack __stack
+
+__assert_fail ____assert_fail
+stack __stack
+
+int i45
+linkedstack __linkedstack
+
+int i46
+unknown a5534 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_34_9;
+        
+fi_6_34_9:;
+empty __empty
+stack __stack
+unknown a56stack ( empty __empty );
+__assert_fail ____assert_fail
+empty __empty
+stack __stack
+unknown a57stack ( empty __empty );
+int i47
+linkedstack __linkedstack
+
+int i48
+unknown a5835 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_35_9;
+        fi_6_35_9:;
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+tmp __tmp
+return tmp __tmp;
+}

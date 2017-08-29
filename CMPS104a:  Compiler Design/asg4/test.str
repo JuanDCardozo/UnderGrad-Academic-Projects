@@ -1,0 +1,7 @@
+string_set[   0]:    5344662657899890615 0x1cec188->";"
+                    10159970873491820195 0x1cec5b8->"1"
+string_set[   3]:   12597418120160561823 0x1cf0638->"int"
+string_set[   4]:   10975197172560234349 0x1cec598->"ROOT"
+load_factor = 0.800
+bucket_count = 5
+max_bucket_size = 2

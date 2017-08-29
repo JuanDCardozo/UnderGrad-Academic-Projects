@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">homework3</string>
+    <string name = "button_main">Start Chat</string>
+    <string name = "button_chat">Send</string>
+    <string name = "title">Local-Chat</string>
+    <string name ="hint">Chat Nickname</string>
+    <string name ="hint2">Message</string>
+    <string name ="location_enabled">Location Enabled</string>
+    <string name ="location_disabled">Location Disabled</string>
+
+</resources>

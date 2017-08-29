@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <title>iTradeU</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link rel="stylesheet" href="public/assets/angular-material.css"/>
+    <link rel="stylesheet" href="public/assets/app.css"/>
+
+    <style type="text/css">
+        /**
+         * Hide when Angular is not yet loaded and initialized
+         */
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+          display: none !important;
+        }
+    </style>
+
+  </head>
+
+  <body ng-app="starterApp" layout="column" ng-controller="UserController as ul" ng-cloak>
+
+    <md-toolbar layout="row">
+      <md-button class="menu" hide-gt-sm ng-click="ul.toggleList()" aria-label="Show User List">
+        <md-icon md-svg-icon="menu" ></md-icon>
+      </md-button>
+
+     <h1 style="padding:15px;color: white">iTradeU</h1>
+     <md-button ng-click="ul.logout()" aria-label="Logout" align="right">
+         <h4 style="color: white">Logout </h4>
+      </md-button>
+      <md-button ng-click="ul.createItem()" aria-label="CreateItem" align="right">
+        <h4 style="color: white">  Add Item </h4>
+       </md-button>
+
+
+    </md-toolbar>
+
+    <div flex layout="row">
+
+        <md-sidenav  style="background-color:#e28484"ng-click="ul.toggleList()" md-is-locked-open="$mdMedia('gt-sm')" md-component-id="left" class="md-whiteframe-z2" >
+          <center><md-button ng-click="ul.profile()">
+            <md-icon md-svg-icon="public/assets/svg/avatar-1.svg" class="avatar"></md-icon>
+          <h2 style="color:white" ng-controller="PostsCtrl">{{posts.user.firstName}} </h2>
+        </md-button></center>
+        <hr style="color:white" width="300">
+        <center>  <h2 style="color:white"> My Trade Items </h2></center>
+          <md-list>
+            <md-list-item ng-repeat="it in ul.users">
+                <md-button ng-click="ul.selectItem(it)" >
+                  <center style="color:white">{{it.title}}</center>
+                </md-button>
+            </md-list-item>
+          </md-list>
+        </md-sidenav>
+
+        <md-content style="background-color:#f4d1d1"flex id="content" ng-show="!ul.selected" layout-xs="column" layout="row" layout-align="center center" >
+
+          <div style="padding: 15px;background-color:white; text-align:center;border-radius: 20px;box-shadow: 5px 5px 2.5px #a5a5a5" ng-show="!ul.selected" >
+          <h1 style="color:#6f6f6f">Welcome to iTradeU</h1>
+          <h2 style="color:#6f6f6f"> Select an item to view trade matches </h2>
+        </div>
+          <md-list class="md-2-line" ng-show="ul.selected">
+        </md-content>
+
+        <md-content style="padding:10px; background-color:#f4d1d1"ng-show="ul.selected" flex id="content2">
+            <h1 style="color:#6f6f6f"> Item Selected: </h1>
+            <hr style="border-color:#6f6f6f">
+            <md-list-item style="background-color:white ;border-radius: 20px;  box-shadow: 5px 5px 2.5px #a5a5a5" >
+              <div style="width:30%">
+                <md-icon  md-svg-icon="public/assets/svg/package.svg" class="md-avatar-icon"></md-icon>
+              </div>
+              <div style="width:70%">
+                <h2 style="color:#6f6f6f"><b>Title:</b> {{ul.selectedItem.title}}</h2>
+                <p style="color:#6f6f6f"><b>Description:</b> <br>{{ul.selectedItem.description}}</p>
+                <p style="color:#6f6f6f"><b>Matching Criteria:</b></p>
+                <ul>
+                <li style="color:#6f6f6f"><b>Keyword 1:</b> {{ul.selectedItem.match.keyword1.original}}</li>
+                <li style="color:#6f6f6f"><b>Keyword 2:</b> {{ul.selectedItem.match.keyword2.original}}</li>
+                <li style="color:#6f6f6f"><b>Keyword 3:</b> {{ul.selectedItem.match.keyword3.original}}</li>
+              </ul>
+              </div>
+            </md-list-item>
+
+            <h1 style="color:#6f6f6f"> ({{ul.matches.length}}) Matches for Item: </h1>
+            <hr style="border-color:#6f6f6f">
+            <md-list-item style="background-color:white ;border-radius: 20px; box-shadow: 5px 5px 2.5px #a5a5a5" ng-repeat="match in ul.matches">
+              <div style="width:30%">
+                <md-icon  md-svg-icon="public/assets/svg/package.svg" class="md-avatar-icon"></md-icon>
+              </div>
+              <div style="width:70%">
+                <h2 style="color:#6f6f6f"><b>Title:</b> {{match.title}}</h2>
+                <p style="color:#6f6f6f"><b>Description:</b> <br>{{match.description}}</p>
+                <md-button class="share" md-no-ink ng-click="ul.makeContact(ul.selectedItem)" aria-label="Share with {{ ul.selectedItem.user_id.firstName }}">
+                    <md-icon md-svg-icon="share"></md-icon></md-button>
+              </div>
+
+
+            </md-list-item>
+
+          </md-list>
+
+        </md-content>
+
+    </div>
+
+    <script src="public/assets/angular.js"></script>
+    <script src="public/assets/angular-animate.js"></script>
+    <script src="public/assets/angular-aria.js"></script>
+    <script type="text/javascript" src="public/assets/angular-material.js"></script>
+
+    <script src="public/users/Users.js"></script>
+    <script src="public/users/UserController.js"></script>
+
+    <script type="text/javascript">
+
+          var app = angular
+              .module('starterApp', ['ngMaterial', 'users'])
+              .config(function($mdThemingProvider, $mdIconProvider){
+
+                  $mdIconProvider
+                      .defaultIconSet("public/assets/svg/avatars.svg", 128)
+                      .icon("menu"       , "public/assets/svg/menu.svg"        , 24)
+                      .icon("share"      , "public/assets/svg/share.svg"       , 24)
+                      .icon("google_plus", "public/assets/svg/google_plus.svg" , 512)
+                      .icon("hangouts"   , "public/assets/svg/hangouts.svg"    , 512)
+                      .icon("twitter"    , "public/assets/svg/twitter.svg"     , 512)
+                      .icon("phone"      , "public/assets/svg/phone.svg"       , 512);
+
+                      $mdThemingProvider.theme('default')
+                          .primaryPalette('teal')
+                          .accentPalette('red');
+
+              });
+              app.controller("PostsCtrl", function($scope, $http) {
+
+                $http.get('/user'). success(function(data, status, headers, config) {
+                   $scope.posts= data; }); });
+
+
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,144 @@
+/* ********************************************************
+ * Name: Juan D. Cardozo
+ * Cruz ID: jcardozo
+ * Student ID: 1362585
+ * Assignment: pa4
+ * File: minPQ.h
+ ******************************************************** */
+#include "minPQ.h"
+#include <stdlib.h>
+#include <math.h>
+
+/* Multiple typedefs for the same type are an error in C. */
+
+struct MinPQNode{
+  int numVertices;
+  int numPQ;
+  int minVertex;
+  double oo;
+  int* status;
+  int* parent;
+  double* fringeWgt;
+}MinPQNode;
+
+// Private Functions
+void findMin(MinPQ pq)
+{
+  int v;
+  double minWgt;
+  minWgt = pq->oo;
+  for(v = 1; v <= pq->numVertices;++v){
+    if(pq->status[v] == FRINGE){
+      if(pq->fringeWgt[v] < minWgt){
+	pq->minVertex = v;
+	minWgt = pq->fringeWgt[v];
+      }
+    }
+
+  }
+}
+
+/* Access functions 
+*/
+
+/** isEmpty
+*/
+int isEmptyPQ(MinPQ pq)
+{
+  return (pq->numPQ == 0);
+}
+
+/** getMin
+*/
+int getMin(MinPQ pq)
+{
+  if(pq->minVertex == -1){
+    findMin(pq);
+  }
+  return pq->minVertex;
+}
+
+/** getStatus
+*/
+int getStatus(MinPQ pq, int id)
+{
+  return pq->status[id];
+
+}
+
+/** getParent
+*/
+int getParent(MinPQ pq, int id)
+{
+  return pq->parent[id];
+}
+
+/** getPriority
+*/
+double getPriority(MinPQ pq, int id)
+{
+  return pq->fringeWgt[id];
+
+}
+
+/* Manipulation procedures 
+*/
+
+/** delMin
+*/
+void delMin(MinPQ pq)
+{
+  int oldMin = getMin(pq);
+  pq->status[oldMin] = INTREE;
+  pq->minVertex = -1;
+  pq->numPQ--;
+}
+
+/** insertPQ
+*/
+void insertPQ(MinPQ pq, int id, int par, double priority)
+{
+  pq->parent[id] = par;
+  pq->fringeWgt[id] = priority;
+  pq->status[id] = FRINGE;
+  pq->minVertex = -1;
+  pq->numPQ++;
+}
+
+/** decreaseKey
+*/
+void decreaseKey(MinPQ pq, int id, int par, double priority)
+{
+  pq->parent[id] = par;
+  pq->fringeWgt[id] = priority;
+  pq->minVertex =-1;
+
+}
+
+
+/* Constructors
+*/
+
+/**
+*/
+MinPQ createPQ(int n, int aStatus[], double priority[], int aParent[])
+{
+  MinPQ pq = calloc(1,sizeof(MinPQNode));
+  pq->parent = calloc(n,sizeof(int));
+  pq->fringeWgt = calloc(n,sizeof(double));;
+  pq->status = calloc(n,sizeof(int));
+  for(int i = 1; n >= i; ++i){
+    pq->status[i] = UNSEEN;
+    pq->fringeWgt[i] = priority[i];
+    pq->parent[i] = aParent[i];
+  }
+  pq->minVertex = -1;
+  pq->numVertices = n;
+  pq->numPQ = 0;
+  pq->oo = HUGE_VAL;
+  return pq;
+
+}
+
+
+

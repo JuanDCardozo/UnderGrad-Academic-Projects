@@ -1,0 +1,279 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = =;
+        char* s13 = ;
+        char* s14 = ;
+        char* s15 = ;
+        char* s16 = (;
+        [] __intint i1
+        (null)  = [] __int;
+int i2
+        (null)  = ;
+col __col
+newcol __newcol
+
+board __board
+col __col
+board __board
+newcol __newcol
+
+int i3
+return i3;
+        
+        if (!) goto fi_6_11_22;
+                fi_6_11_22:;
+board __board
+col __col
+board _ _board
+newcol __newcol
+
+        (null)  = ;
+diagonal __diagonal
+col __col
+newcol __newcol
+
+
+int i4
+return i4;
+        
+        if (!) goto fi_6_13_20;
+        diagonal __diagonal
+        
+fi_6_13_20:;
+diagonal __diagonal
+newcol __newcol
+col __col
+
+
+int i5
+return i5;
+        
+        if (!) goto fi_6_14_20;
+        diagonal __diagonal
+        
+fi_6_14_20:;
+col __col
+col __col
+int i6
+
+while_6_10_4:;
+        
+        if (!) goto break_6_10_25
+        goto while_6_10_4
+break_6_10_25):;
+int i7
+return i7;
+int i8
+        (null)  = ;
+col __col
+int i9
+
+putc __putc
+board __board
+col __col
+int i10
+
+unknown a1+ ( putc __putc );
+col __col
+col __col
+int i11
+
+while_6_22_4:;
+        
+        if (!) goto break_6_22_20
+        goto while_6_22_4
+break_6_22_20):;
+putc __putc
+int i12
+unknown a2'\n' ( putc __putc );
+newcol __newcol
+int i13
+
+printqueens __printqueens
+unknown a3printqueens ( int i14
+        (null)  = ;
+row __row
+int i15
+
+board __board
+newcol __newcol
+row __row
+is_safe __is_safe
+newcol __newcol
+unknown a4newcol ( is_safe __is_safe );
+queens __queens
+newcol __newcol
+int i16
+
+unknown a5+ ( queens __queens );
+        
+        if (!a4) goto fi_6_35_22;
+        is_safe __is_safe
+        newcol __newcol
+fi_6_35_22:;
+row __row
+row __row
+int i17
+
+while_6_33_7:;
+        
+        if (!) goto break_6_33_23
+        goto while_6_33_7
+break_6_33_23):;
+        
+        if (!) goto else_6_30_15;
+        newcol __newcol
+        int i18
+goto fi_6_30_15:;
+else_6_30_15:;
+        newcol __newcol
+        int i19
+fi_6_30_15:;
+queens __queens
+int i20
+unknown a60 ( queens __queens );
+}
+__int is_safe(
+        int _0_newcol)
+{
+int i21
+        (null)  = ;
+col __col
+newcol __newcol
+
+board __board
+col __col
+board __board
+newcol __newcol
+
+int i22
+return i22;
+        
+        if (!) goto fi_6_11_22;
+                fi_6_11_22:;
+board __board
+col __col
+board _ _board
+newcol __newcol
+
+        (null)  = ;
+diagonal __diagonal
+col __col
+newcol __newcol
+
+
+int i23
+return i23;
+        
+        if (!) goto fi_6_13_20;
+        diagonal __diagonal
+        
+fi_6_13_20:;
+diagonal __diagonal
+newcol __newcol
+col __col
+
+
+int i24
+return i24;
+        
+        if (!) goto fi_6_14_20;
+        diagonal __diagonal
+        
+fi_6_14_20:;
+col __col
+col __col
+int i25
+
+while_6_10_4:;
+        
+        if (!) goto break_6_10_25
+        goto while_6_10_4
+break_6_10_25):;
+int i26
+return i26;
+}
+__void printqueens)
+{
+int i27
+        (null)  = ;
+col __col
+int i28
+
+putc __putc
+board __board
+col __col
+int i29
+
+unknown a7+ ( putc __putc );
+col __col
+col __col
+int i30
+
+while_6_22_4:;
+        
+        if (!) goto break_6_22_20
+        goto while_6_22_4
+break_6_22_20):;
+putc __putc
+int i31
+unknown a8'\n' ( putc __putc );
+}
+__void queens(
+        int _0_newcol)
+{
+newcol __newcol
+int i32
+
+printqueens __printqueens
+unknown a9printqueens ( int i33
+        (null)  = ;
+row __row
+int i34
+
+board __board
+newcol __newcol
+row __row
+is_safe __is_safe
+newcol __newcol
+unknown a10newcol ( is_safe __is_safe );
+queens __queens
+newcol __newcol
+int i35
+
+unknown a11+ ( queens __queens );
+        
+        if (!a10) goto fi_6_35_22;
+        is_safe __is_safe
+        newcol __newcol
+fi_6_35_22:;
+row __row
+row __row
+int i36
+
+while_6_33_7:;
+        
+        if (!) goto break_6_33_23
+        goto while_6_33_7
+break_6_33_23):;
+        
+        if (!) goto else_6_30_15;
+        newcol __newcol
+        int i37
+goto fi_6_30_15:;
+else_6_30_15:;
+        newcol __newcol
+        int i38
+fi_6_30_15:;
+}

@@ -1,0 +1,433 @@
+#define __OCLIB_C__
+#include "oclib.oh"struct s_stack{
+        { _f[]_[];
+};
+void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = struct;
+        char* s13 = ;
+        char* s14 = ;
+        char* s15 = ;
+        char* s16 = ;
+        char* s17 = =;
+        char* s18 = =;
+        char* s19 = =;
+        char* s20 = while;
+        char* s21 = while;
+        (null)  = ;
+stack __stack
+size __size
+stack __stack
+size __size
+stack __stack
+int i1
+
+stack __stack
+return stack __stack;
+stack __stack
+stack __stack
+int i2
+
+
+__assert_fail ____assert_fail
+stack __stack
+stack __stack
+int i3
+
+
+int i4
+arraystack __arraystack
+
+int i5
+unknown a122 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_22_9;
+        
+fi_6_22_9:;
+stack __stack
+stack __stack
+int i6
+
+stack __stack
+stack __stack
+str __str
+stack __stack
+int i7
+
+
+__assert_fail ____assert_fail
+stack __stack
+EMPTY __EMPTY
+
+int i8
+arraystack __arraystack
+
+int i9
+unknown a228 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_28_9;
+        
+fi_6_28_9:;
+stack __stack
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+int i10
+
+tmp __tmp
+return tmp __tmp;
+stack __stack
+int i11
+
+
+return ;
+getargv __getargv
+unknown a3getargv (         (null)  = s17;
+new_stack __new_stack
+int i12
+unknown a4100 ( new_stack __new_stack );
+        (null)  = s18;
+int i13
+        (null)  = s19;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a5[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i14
+
+while_6_43_1:;
+        
+        if (!) goto break_6_43_28
+        goto while_6_43_1
+break_6_43_28):;
+empty __empty
+stack __stack
+unknown a6stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a7stack ( pop __pop );
+unknown a8( ( puts __puts );
+endl __endl
+unknown a9endl ( while_6_48_1:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_1
+break_6_48_25):;
+        [] __string        stack __stack        int __argi        (null)  = ;
+stack __stack
+size __size
+stack __stack
+size __size
+stack __stack
+int i15
+
+stack __stack
+return stack __stack;
+stack __stack
+stack __stack
+int i16
+
+
+__assert_fail ____assert_fail
+stack __stack
+stack __stack
+int i17
+
+
+int i18
+arraystack __arraystack
+
+int i19
+unknown a1022 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_22_9;
+        
+fi_6_22_9:;
+stack __stack
+stack __stack
+int i20
+
+stack __stack
+stack __stack
+str __str
+stack __stack
+int i21
+
+
+__assert_fail ____assert_fail
+stack __stack
+EMPTY __EMPTY
+
+int i22
+arraystack __arraystack
+
+int i23
+unknown a1128 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_28_9;
+        
+fi_6_28_9:;
+stack __stack
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+int i24
+
+tmp __tmp
+return tmp __tmp;
+stack __stack
+int i25
+
+
+return ;
+getargv __getargv
+unknown a12getargv (         (null)  = [] __string;
+new_stack __new_stack
+int i26
+unknown a13100 ( new_stack __new_stack );
+        (null)  = stack __stack;
+int i27
+        (null)  = int __argi;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a14[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i28
+
+while_6_43_1:;
+        
+        if (!) goto break_6_43_28
+        goto while_6_43_1
+break_6_43_28):;
+empty __empty
+stack __stack
+unknown a15stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a16stack ( pop __pop );
+unknown a17( ( puts __puts );
+endl __endl
+unknown a18endl ( while_6_48_1:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_1
+break_6_48_25):;
+        (null)  = ;
+stack __stack
+size __size
+stack __stack
+size __size
+stack __stack
+int i29
+
+stack __stack
+return stack __stack;
+stack __stack
+stack __stack
+int i30
+
+
+__assert_fail ____assert_fail
+stack __stack
+stack __stack
+int i31
+
+
+int i32
+arraystack __arraystack
+
+int i33
+unknown a1922 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_22_9;
+        
+fi_6_22_9:;
+stack __stack
+stack __stack
+int i34
+
+stack __stack
+stack __stack
+str __str
+stack __stack
+int i35
+
+
+__assert_fail ____assert_fail
+stack __stack
+EMPTY __EMPTY
+
+int i36
+arraystack __arraystack
+
+int i37
+unknown a2028 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_28_9;
+        
+fi_6_28_9:;
+stack __stack
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+int i38
+
+tmp __tmp
+return tmp __tmp;
+stack __stack
+int i39
+
+
+return ;
+getargv __getargv
+unknown a21getargv (         (null)  = [] __string;
+new_stack __new_stack
+int i40
+unknown a22100 ( new_stack __new_stack );
+        (null)  = stack __stack;
+int i41
+        (null)  = int __argi;
+argv __argv
+argi __argi
+
+push __push
+stack __stack
+argv __argv
+argi __argi
+unknown a23[ ( push __push, stack __stack );
+argi __argi
+argi __argi
+int i42
+
+while_6_43_1:;
+        
+        if (!) goto break_6_43_28
+        goto while_6_43_1
+break_6_43_28):;
+empty __empty
+stack __stack
+unknown a24stack ( empty __empty );
+puts __puts
+pop __pop
+stack __stack
+unknown a25stack ( pop __pop );
+unknown a26( ( puts __puts );
+endl __endl
+unknown a27endl ( while_6_48_1:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_1
+break_6_48_25):;
+}
+__stack new_stack(
+        int _0_size)
+{
+        (null)  = ;
+stack __stack
+size __size
+stack __stack
+size __size
+stack __stack
+int i43
+
+stack __stack
+return stack __stack;
+}
+__void push(
+        stack _0_stack,
+        string _0_str)
+{
+stack __stack
+stack __stack
+int i44
+
+
+__assert_fail ____assert_fail
+stack __stack
+stack __stack
+int i45
+
+
+int i46
+arraystack __arraystack
+
+int i47
+unknown a2822 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_22_9;
+        
+fi_6_22_9:;
+stack __stack
+stack __stack
+int i48
+
+stack __stack
+stack __stack
+str __str
+}
+__string pop(
+        stack _0_stack)
+{
+stack __stack
+int i49
+
+
+__assert_fail ____assert_fail
+stack __stack
+EMPTY __EMPTY
+
+int i50
+arraystack __arraystack
+
+int i51
+unknown a2928 ( __assert_fail ____assert_fail, ,  );
+        
+        if (!) goto fi_6_28_9;
+        
+fi_6_28_9:;
+stack __stack
+stack __stack
+        (null)  = ;
+stack __stack
+stack __stack
+int i52
+
+tmp __tmp
+return tmp __tmp;
+}
+__int empty(
+        stack _0_stack)
+{
+stack __stack
+int i53
+
+
+return ;
+}

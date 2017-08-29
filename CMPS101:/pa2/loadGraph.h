@@ -1,0 +1,34 @@
+/* ******************************************************************
+ * Name: Juan D. Cardozo
+ * Cruz I.D: jcardozo
+ * Student I.D: 1362585
+ * Assigment: pa2
+ * File: loadGraph.h
+ * Purpose: 
+ ****************************************************************** */
+
+#ifndef C101LoadGraph_H
+#define C101LoadGraph_H
+
+// Standard Libraries
+#include <stdio.h>
+#include <stdlib.h>
+
+// Declare User Libraries
+#include "intList.h"
+#include "edgeList.h"
+
+/* Manipulation function.
+ * Preconditions: None
+ * Postconditions: None
+ */
+void initList(int size, IntList adjVertices);
+
+/* Manipulation function.
+ * Preconditions: adjVertices is not intNil and size bigger than 1.
+ * Postconditions: None
+ */
+void loadList(int size, IntList adjVertices);
+
+#endif
+

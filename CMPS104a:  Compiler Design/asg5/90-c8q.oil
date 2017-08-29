@@ -1,0 +1,9 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = (;
+Q __Q
+int i1
+int i2
+int i3
+unknown a10 ( Q __Q, i1, i2 );
+}

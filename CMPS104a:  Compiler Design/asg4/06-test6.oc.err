@@ -1,0 +1,3 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+ˆQQ:13.12: invalid source character (")
+ˆQQ:13.14: invalid source character (")

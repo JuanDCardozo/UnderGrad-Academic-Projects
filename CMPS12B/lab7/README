@@ -1,0 +1,18 @@
+*****************************************************************************
+* Name: Juan D. Cardozo
+* Student I.D: 1362585
+* Cruz I.D: jcardozo
+* Class: CMPS 12M
+* Section: Mondays 6 -8 
+* Date: 05/27/2015
+* Lab 7
+* Files:
+	-README
+	-Makefile
+	-Dictionary.java
+	-DictionaryClient.java
+	-KeyCollisionException.java
+	-KeyNotFoundException.java
+
+*Note:
+************************************************************************

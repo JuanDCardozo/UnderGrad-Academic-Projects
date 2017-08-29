@@ -1,0 +1,119 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = =;
+        char* s13 = if;
+        char* s14 = (;
+        int __aint i1
+        (null)  = int __a;
+a __a
+int i2
+
+puts __puts
+one __one
+unknown a1one ( puts __puts );
+a __a
+int i3
+
+puts __puts
+two __two
+unknown a2two ( puts __puts );
+a __a
+int i4
+
+puts __puts
+three __three
+unknown a3three ( puts __puts );
+puts __puts
+many __many
+unknown a4many ( puts __puts );
+        
+        if (!) goto else_6_9_12;
+        a __a
+        int i5
+goto fi_6_9_12:;
+else_6_9_12:;
+        a __a
+        int i6
+fi_6_9_12:;
+        
+        if (!) goto else_6_8_12;
+        a __a
+        int i7
+goto fi_6_8_12:;
+else_6_8_12:;
+        a __a
+        int i8
+fi_6_8_12:;
+        
+        if (!) goto else_6_7_7;
+        a __a
+        int i9
+goto fi_6_7_7:;
+else_6_7_7:;
+        a __a
+        int i10
+fi_6_7_7:;
+endl __endl
+unknown a5endl ( int i11
+        (null)  = int __a;
+a __a
+int i12
+
+puts __puts
+one __one
+unknown a6one ( puts __puts );
+a __a
+int i13
+
+puts __puts
+two __two
+unknown a7two ( puts __puts );
+a __a
+int i14
+
+puts __puts
+three __three
+unknown a8three ( puts __puts );
+puts __puts
+many __many
+unknown a9many ( puts __puts );
+        
+        if (!) goto else_6_9_12;
+        a __a
+        int i15
+goto fi_6_9_12:;
+else_6_9_12:;
+        a __a
+        int i16
+fi_6_9_12:;
+        
+        if (!) goto else_6_8_12;
+        a __a
+        int i17
+goto fi_6_8_12:;
+else_6_8_12:;
+        a __a
+        int i18
+fi_6_8_12:;
+        
+        if (!) goto else_6_7_7;
+        a __a
+        int i19
+goto fi_6_7_7:;
+else_6_7_7:;
+        a __a
+        int i20
+fi_6_7_7:;
+endl __endl
+unknown a10endl ( }

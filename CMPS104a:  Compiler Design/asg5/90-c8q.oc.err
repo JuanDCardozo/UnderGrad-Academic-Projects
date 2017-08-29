@@ -1,0 +1,17 @@
+<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
+H÷¼:1.7: syntax error, unexpected '[', expecting '=' or '('
+H÷¼:1.19: syntax error, unexpected '{'
+H÷¼:2.2: invalid source character (|)
+H÷¼:2.15: syntax error, unexpected ';'
+H÷¼:2.19: invalid source character (?)
+H÷¼:2.20: syntax error, unexpected '!'
+H÷¼:2.33: invalid source character (:)
+H÷¼:3.14: invalid source character (&)
+H÷¼:3.16: invalid source character (|)
+H÷¼:3.18: invalid source character (&)
+H÷¼:3.20: invalid source character (|)
+H÷¼:3.21: invalid source character (|)
+H÷¼:3.29: invalid source character (|)
+H÷¼:3.33: invalid source character (|)
+H÷¼:4.18: syntax error, unexpected '{'
+H÷¼:4.36: syntax error, unexpected '}'

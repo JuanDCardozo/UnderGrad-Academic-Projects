@@ -1,0 +1,19 @@
+*****************************************************************************
+* Name: Juan D. Cardozo
+* Student I.D: 1362585
+* Cruz I.D: jcardozo
+* Class: CMPS 12M
+* Section: Mondays 6 -8 
+* Date: 05/09/2015
+* Lab 5
+* Files:
+	-README
+	-Makefile
+	-Dictionary.c
+	-Dictionary.h
+	-DictionaryClient.c
+	-DictionaryTest.c
+
+*Note: Running DictionaryTest.c will output the results of the tests for 
+each function.
+************************************************************************

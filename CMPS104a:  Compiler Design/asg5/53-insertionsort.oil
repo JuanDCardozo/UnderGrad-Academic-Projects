@@ -1,0 +1,879 @@
+#define __OCLIB_C__
+#include "oclib.oh"void __ocmain (void) {
+        char* s1 = ;
+        char* s2 = ;
+        char* s3 = ;
+        char* s4 = ;
+        char* s5 = ;
+        char* s6 = ;
+        char* s7 = ;
+        char* s8 = ;
+        char* s9 = ;
+        char* s10 = ;
+        char* s11 = ;
+        char* s12 = ;
+        char* s13 = ;
+        char* s14 = ;
+        char* s15 = =;
+        char* s16 = =;
+        char* s17 = while;
+        char* s18 = (;
+        char* s19 = (;
+        char* s20 = (;
+        [] __string        int __argcint i1
+        (null)  = ;
+int i2
+        (null)  = ;
+contin __contin
+s1 __s1
+index __index
+        (null)  = ;
+s2 __s2
+index __index
+        (null)  = ;
+s1c __s1c
+s2c __s2c
+
+        (null)  = ;
+cmp __cmp
+int i3
+
+cmp __cmp
+return cmp __cmp;
+        
+        if (!) goto fi_6_15_15;
+        cmp __cmp
+        int i4
+fi_6_15_15:;
+s1c _ _s1c
+int i5
+
+contin __contin
+int i6
+        
+        if (!) goto fi_6_16_15;
+        s1c _ _s1c
+        int i7
+fi_6_16_15:;
+index __index
+index __index
+int i8
+
+while_6_11_4:;
+        if (!contin __contin) goto break_6_11_19
+        goto while_6_11_4
+break_6_11_19):;
+int i9
+return i9;
+int i10
+        (null)  = ;
+sorted __sorted
+size __size
+
+sorted __sorted
+        (null)  = ;
+array __array
+slot __slot
+        (null)  = ;
+int i11
+        (null)  = ;
+contin __contin
+slot __slot
+int i12
+
+contin __contin
+int i13
+strcmp __strcmp
+array __array
+slot __slot
+int i14
+
+element __element
+unknown a1element ( strcmp __strcmp,  );
+int i15
+
+contin __contin
+int i16
+array __array
+slot __slot
+array __array
+slot __slot
+int i17
+
+slot __slot
+slot __slot
+int i18
+
+        
+        if (!) goto else_6_31_54;
+        unknown a2element ( strcmp __strcmp,  );
+        int i19
+goto fi_6_31_54:;
+else_6_31_54:;
+        unknown a3element ( strcmp __strcmp,  );
+        int i20
+fi_6_31_54:;
+        
+        if (!) goto else_6_29_19;
+        slot __slot
+        int i21
+goto fi_6_29_19:;
+else_6_29_19:;
+        slot __slot
+        int i22
+fi_6_29_19:;
+while_6_28_7:;
+        if (!contin __contin) goto break_6_28_22
+        goto while_6_28_7
+break_6_28_22):;
+array __array
+slot __slot
+element __element
+sorted __sorted
+sorted __sorted
+int i23
+
+while_6_24_4:;
+        
+        if (!) goto break_6_24_26
+        goto while_6_24_4
+break_6_24_26):;
+endl __endl
+unknown a4endl ( puts __puts
+label __label
+unknown a5label ( puts __puts );
+puts __puts
+n __n
+unknown a6n ( puts __puts );
+int i24
+        (null)  = ;
+index __index
+size __size
+
+puts __puts
+array __array
+index __index
+unknown a7[ ( puts __puts );
+endl __endl
+unknown a8endl ( index __index
+index __index
+int i25
+
+while_6_48_4:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_4
+break_6_48_25):;
+getargv __getargv
+unknown a9getargv (         (null)  = [] __string;
+int i26
+        (null)  = int __argc;
+argv __argv
+argc __argc
+
+argc __argc
+argc __argc
+int i27
+
+while_6_57_1:;
+        
+        if (!) goto break_6_57_33
+        goto while_6_57_1
+break_6_57_33):;
+print_array __print_array
+unsorted __unsorted
+argc __argc
+argv __argv
+unknown a10argv ( print_array __print_array, unsorted __unsorted, argc __argc );
+insertion_sort __insertion_sort
+argc __argc
+argv __argv
+unknown a11argv ( insertion_sort __insertion_sort, argc __argc );
+print_array __print_array
+sorted __sorted
+argc __argc
+argv __argv
+unknown a12argv ( print_array __print_array, sorted __sorted, argc __argc );
+int i28
+        (null)  = ;
+int i29
+        (null)  = ;
+contin __contin
+s1 __s1
+index __index
+        (null)  = ;
+s2 __s2
+index __index
+        (null)  = ;
+s1c __s1c
+s2c __s2c
+
+        (null)  = ;
+cmp __cmp
+int i30
+
+cmp __cmp
+return cmp __cmp;
+        
+        if (!) goto fi_6_15_15;
+        cmp __cmp
+        int i31
+fi_6_15_15:;
+s1c _ _s1c
+int i32
+
+contin __contin
+int i33
+        
+        if (!) goto fi_6_16_15;
+        s1c _ _s1c
+        int i34
+fi_6_16_15:;
+index __index
+index __index
+int i35
+
+while_6_11_4:;
+        if (!contin __contin) goto break_6_11_19
+        goto while_6_11_4
+break_6_11_19):;
+int i36
+return i36;
+int i37
+        (null)  = ;
+sorted __sorted
+size __size
+
+sorted __sorted
+        (null)  = ;
+array __array
+slot __slot
+        (null)  = ;
+int i38
+        (null)  = ;
+contin __contin
+slot __slot
+int i39
+
+contin __contin
+int i40
+strcmp __strcmp
+array __array
+slot __slot
+int i41
+
+element __element
+unknown a13element ( strcmp __strcmp,  );
+int i42
+
+contin __contin
+int i43
+array __array
+slot __slot
+array __array
+slot __slot
+int i44
+
+slot __slot
+slot __slot
+int i45
+
+        
+        if (!) goto else_6_31_54;
+        unknown a14element ( strcmp __strcmp,  );
+        int i46
+goto fi_6_31_54:;
+else_6_31_54:;
+        unknown a15element ( strcmp __strcmp,  );
+        int i47
+fi_6_31_54:;
+        
+        if (!) goto else_6_29_19;
+        slot __slot
+        int i48
+goto fi_6_29_19:;
+else_6_29_19:;
+        slot __slot
+        int i49
+fi_6_29_19:;
+while_6_28_7:;
+        if (!contin __contin) goto break_6_28_22
+        goto while_6_28_7
+break_6_28_22):;
+array __array
+slot __slot
+element __element
+sorted __sorted
+sorted __sorted
+int i50
+
+while_6_24_4:;
+        
+        if (!) goto break_6_24_26
+        goto while_6_24_4
+break_6_24_26):;
+endl __endl
+unknown a16endl ( puts __puts
+label __label
+unknown a17label ( puts __puts );
+puts __puts
+n __n
+unknown a18n ( puts __puts );
+int i51
+        (null)  = ;
+index __index
+size __size
+
+puts __puts
+array __array
+index __index
+unknown a19[ ( puts __puts );
+endl __endl
+unknown a20endl ( index __index
+index __index
+int i52
+
+while_6_48_4:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_4
+break_6_48_25):;
+getargv __getargv
+unknown a21getargv (         (null)  = [] __string;
+int i53
+        (null)  = int __argc;
+argv __argv
+argc __argc
+
+argc __argc
+argc __argc
+int i54
+
+while_6_57_1:;
+        
+        if (!) goto break_6_57_33
+        goto while_6_57_1
+break_6_57_33):;
+print_array __print_array
+unsorted __unsorted
+argc __argc
+argv __argv
+unknown a22argv ( print_array __print_array, unsorted __unsorted, argc __argc );
+insertion_sort __insertion_sort
+argc __argc
+argv __argv
+unknown a23argv ( insertion_sort __insertion_sort, argc __argc );
+print_array __print_array
+sorted __sorted
+argc __argc
+argv __argv
+unknown a24argv ( print_array __print_array, sorted __sorted, argc __argc );
+int i55
+        (null)  = ;
+int i56
+        (null)  = ;
+contin __contin
+s1 __s1
+index __index
+        (null)  = ;
+s2 __s2
+index __index
+        (null)  = ;
+s1c __s1c
+s2c __s2c
+
+        (null)  = ;
+cmp __cmp
+int i57
+
+cmp __cmp
+return cmp __cmp;
+        
+        if (!) goto fi_6_15_15;
+        cmp __cmp
+        int i58
+fi_6_15_15:;
+s1c _ _s1c
+int i59
+
+contin __contin
+int i60
+        
+        if (!) goto fi_6_16_15;
+        s1c _ _s1c
+        int i61
+fi_6_16_15:;
+index __index
+index __index
+int i62
+
+while_6_11_4:;
+        if (!contin __contin) goto break_6_11_19
+        goto while_6_11_4
+break_6_11_19):;
+int i63
+return i63;
+int i64
+        (null)  = ;
+sorted __sorted
+size __size
+
+sorted __sorted
+        (null)  = ;
+array __array
+slot __slot
+        (null)  = ;
+int i65
+        (null)  = ;
+contin __contin
+slot __slot
+int i66
+
+contin __contin
+int i67
+strcmp __strcmp
+array __array
+slot __slot
+int i68
+
+element __element
+unknown a25element ( strcmp __strcmp,  );
+int i69
+
+contin __contin
+int i70
+array __array
+slot __slot
+array __array
+slot __slot
+int i71
+
+slot __slot
+slot __slot
+int i72
+
+        
+        if (!) goto else_6_31_54;
+        unknown a26element ( strcmp __strcmp,  );
+        int i73
+goto fi_6_31_54:;
+else_6_31_54:;
+        unknown a27element ( strcmp __strcmp,  );
+        int i74
+fi_6_31_54:;
+        
+        if (!) goto else_6_29_19;
+        slot __slot
+        int i75
+goto fi_6_29_19:;
+else_6_29_19:;
+        slot __slot
+        int i76
+fi_6_29_19:;
+while_6_28_7:;
+        if (!contin __contin) goto break_6_28_22
+        goto while_6_28_7
+break_6_28_22):;
+array __array
+slot __slot
+element __element
+sorted __sorted
+sorted __sorted
+int i77
+
+while_6_24_4:;
+        
+        if (!) goto break_6_24_26
+        goto while_6_24_4
+break_6_24_26):;
+endl __endl
+unknown a28endl ( puts __puts
+label __label
+unknown a29label ( puts __puts );
+puts __puts
+n __n
+unknown a30n ( puts __puts );
+int i78
+        (null)  = ;
+index __index
+size __size
+
+puts __puts
+array __array
+index __index
+unknown a31[ ( puts __puts );
+endl __endl
+unknown a32endl ( index __index
+index __index
+int i79
+
+while_6_48_4:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_4
+break_6_48_25):;
+getargv __getargv
+unknown a33getargv (         (null)  = [] __string;
+int i80
+        (null)  = int __argc;
+argv __argv
+argc __argc
+
+argc __argc
+argc __argc
+int i81
+
+while_6_57_1:;
+        
+        if (!) goto break_6_57_33
+        goto while_6_57_1
+break_6_57_33):;
+print_array __print_array
+unsorted __unsorted
+argc __argc
+argv __argv
+unknown a34argv ( print_array __print_array, unsorted __unsorted, argc __argc );
+insertion_sort __insertion_sort
+argc __argc
+argv __argv
+unknown a35argv ( insertion_sort __insertion_sort, argc __argc );
+print_array __print_array
+sorted __sorted
+argc __argc
+argv __argv
+unknown a36argv ( print_array __print_array, sorted __sorted, argc __argc );
+int i82
+        (null)  = ;
+int i83
+        (null)  = ;
+contin __contin
+s1 __s1
+index __index
+        (null)  = ;
+s2 __s2
+index __index
+        (null)  = ;
+s1c __s1c
+s2c __s2c
+
+        (null)  = ;
+cmp __cmp
+int i84
+
+cmp __cmp
+return cmp __cmp;
+        
+        if (!) goto fi_6_15_15;
+        cmp __cmp
+        int i85
+fi_6_15_15:;
+s1c _ _s1c
+int i86
+
+contin __contin
+int i87
+        
+        if (!) goto fi_6_16_15;
+        s1c _ _s1c
+        int i88
+fi_6_16_15:;
+index __index
+index __index
+int i89
+
+while_6_11_4:;
+        if (!contin __contin) goto break_6_11_19
+        goto while_6_11_4
+break_6_11_19):;
+int i90
+return i90;
+int i91
+        (null)  = ;
+sorted __sorted
+size __size
+
+sorted __sorted
+        (null)  = ;
+array __array
+slot __slot
+        (null)  = ;
+int i92
+        (null)  = ;
+contin __contin
+slot __slot
+int i93
+
+contin __contin
+int i94
+strcmp __strcmp
+array __array
+slot __slot
+int i95
+
+element __element
+unknown a37element ( strcmp __strcmp,  );
+int i96
+
+contin __contin
+int i97
+array __array
+slot __slot
+array __array
+slot __slot
+int i98
+
+slot __slot
+slot __slot
+int i99
+
+        
+        if (!) goto else_6_31_54;
+        unknown a38element ( strcmp __strcmp,  );
+        int i100
+goto fi_6_31_54:;
+else_6_31_54:;
+        unknown a39element ( strcmp __strcmp,  );
+        int i101
+fi_6_31_54:;
+        
+        if (!) goto else_6_29_19;
+        slot __slot
+        int i102
+goto fi_6_29_19:;
+else_6_29_19:;
+        slot __slot
+        int i103
+fi_6_29_19:;
+while_6_28_7:;
+        if (!contin __contin) goto break_6_28_22
+        goto while_6_28_7
+break_6_28_22):;
+array __array
+slot __slot
+element __element
+sorted __sorted
+sorted __sorted
+int i104
+
+while_6_24_4:;
+        
+        if (!) goto break_6_24_26
+        goto while_6_24_4
+break_6_24_26):;
+endl __endl
+unknown a40endl ( puts __puts
+label __label
+unknown a41label ( puts __puts );
+puts __puts
+n __n
+unknown a42n ( puts __puts );
+int i105
+        (null)  = ;
+index __index
+size __size
+
+puts __puts
+array __array
+index __index
+unknown a43[ ( puts __puts );
+endl __endl
+unknown a44endl ( index __index
+index __index
+int i106
+
+while_6_48_4:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_4
+break_6_48_25):;
+getargv __getargv
+unknown a45getargv (         (null)  = [] __string;
+int i107
+        (null)  = int __argc;
+argv __argv
+argc __argc
+
+argc __argc
+argc __argc
+int i108
+
+while_6_57_1:;
+        
+        if (!) goto break_6_57_33
+        goto while_6_57_1
+break_6_57_33):;
+print_array __print_array
+unsorted __unsorted
+argc __argc
+argv __argv
+unknown a46argv ( print_array __print_array, unsorted __unsorted, argc __argc );
+insertion_sort __insertion_sort
+argc __argc
+argv __argv
+unknown a47argv ( insertion_sort __insertion_sort, argc __argc );
+print_array __print_array
+sorted __sorted
+argc __argc
+argv __argv
+unknown a48argv ( print_array __print_array, sorted __sorted, argc __argc );
+}
+__int strcmp(
+        string _0_s1,
+        string _0_s2)
+{
+int i109
+        (null)  = ;
+int i110
+        (null)  = ;
+contin __contin
+s1 __s1
+index __index
+        (null)  = ;
+s2 __s2
+index __index
+        (null)  = ;
+s1c __s1c
+s2c __s2c
+
+        (null)  = ;
+cmp __cmp
+int i111
+
+cmp __cmp
+return cmp __cmp;
+        
+        if (!) goto fi_6_15_15;
+        cmp __cmp
+        int i112
+fi_6_15_15:;
+s1c _ _s1c
+int i113
+
+contin __contin
+int i114
+        
+        if (!) goto fi_6_16_15;
+        s1c _ _s1c
+        int i115
+fi_6_16_15:;
+index __index
+index __index
+int i116
+
+while_6_11_4:;
+        if (!contin __contin) goto break_6_11_19
+        goto while_6_11_4
+break_6_11_19):;
+int i117
+return i117;
+}
+__void insertion_sort(
+        int _0_size,
+        [] _0_string)
+{
+int i118
+        (null)  = ;
+sorted __sorted
+size __size
+
+sorted __sorted
+        (null)  = ;
+array __array
+slot __slot
+        (null)  = ;
+int i119
+        (null)  = ;
+contin __contin
+slot __slot
+int i120
+
+contin __contin
+int i121
+strcmp __strcmp
+array __array
+slot __slot
+int i122
+
+element __element
+unknown a49element ( strcmp __strcmp,  );
+int i123
+
+contin __contin
+int i124
+array __array
+slot __slot
+array __array
+slot __slot
+int i125
+
+slot __slot
+slot __slot
+int i126
+
+        
+        if (!) goto else_6_31_54;
+        unknown a50element ( strcmp __strcmp,  );
+        int i127
+goto fi_6_31_54:;
+else_6_31_54:;
+        unknown a51element ( strcmp __strcmp,  );
+        int i128
+fi_6_31_54:;
+        
+        if (!) goto else_6_29_19;
+        slot __slot
+        int i129
+goto fi_6_29_19:;
+else_6_29_19:;
+        slot __slot
+        int i130
+fi_6_29_19:;
+while_6_28_7:;
+        if (!contin __contin) goto break_6_28_22
+        goto while_6_28_7
+break_6_28_22):;
+array __array
+slot __slot
+element __element
+sorted __sorted
+sorted __sorted
+int i131
+
+while_6_24_4:;
+        
+        if (!) goto break_6_24_26
+        goto while_6_24_4
+break_6_24_26):;
+}
+__void print_array(
+        string _0_label,
+        int _0_size,
+        [] _0_string)
+{
+endl __endl
+unknown a52endl ( puts __puts
+label __label
+unknown a53label ( puts __puts );
+puts __puts
+n __n
+unknown a54n ( puts __puts );
+int i132
+        (null)  = ;
+index __index
+size __size
+
+puts __puts
+array __array
+index __index
+unknown a55[ ( puts __puts );
+endl __endl
+unknown a56endl ( index __index
+index __index
+int i133
+
+while_6_48_4:;
+        
+        if (!) goto break_6_48_25
+        goto while_6_48_4
+break_6_48_25):;
+}

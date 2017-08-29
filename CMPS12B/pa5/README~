@@ -1,0 +1,32 @@
+*****************************************************************************
+
+* Name: Juan D. Cardozo
+* Student I.D: 1362585
+* Cruz I.D: jcardozo
+* Class: CMPS 12B
+* Section: Mondays 6 -8 
+* Programming Assignment 3
+* Date: 04/20/2015
+* Files:
+	-README
+	-Dictionary.java
+	-DictionaryTest.java
+	-KeyCollisionsException.java
+	-KeyNotFoundException.java
+	-DictionaryInterface.java
+	-DictionaryClient.java
+	-Makefile
+
+* Note:
+  1. If toString() is called on empty dictionary it returns an empty string
+like this (""), instead of null.
+     
+   2. The delete() method works for every case except when called on the tail.
+I tried itarring to the previous node from the target  and make 
+this node's  next be null. However, when I itarate the list to reach the node beofre the
+tail, a null exception is thrown.
+
+
+
+ 
+************************************************************************

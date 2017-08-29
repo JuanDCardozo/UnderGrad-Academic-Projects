@@ -1,0 +1,9 @@
+*******************************************************************
+* Name: Juan D. Cardozo
+* StudentID: 1362585
+* CruzID: jcardozo
+* Assignment: asg3
+* Files: hzip.st README
+* Notes: Was not able to implement uncompression. For some reason sometimes
+* the program is not able to read the input or output files.
+*********************************************************************

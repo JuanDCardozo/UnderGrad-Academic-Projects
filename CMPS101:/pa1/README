@@ -1,0 +1,28 @@
+****************************************************************************
+Name: Juan D. Cardozo
+Cruz I.D: jcardozo
+Student I.D: 1362585
+******************************************************************************
+"I have read and understood te Academic  Misconduct Policy for Undergraduates,
+at the related sections 102.01-102.016 and 105.15 of the Uc Santa Cruz Student
+Policies and Regulations Handbook, and the related sections of the class
+syllabus"
+Juan D. Cardozo
+*******************************************************************************
+"I wrote this assignment using only permitted sources that do not require 
+citation, according to the syllabus"
+Juan D. Cardozo
+******************************************************************************
+Submitted Files:
+	  1. intList.h
+	  2. intList.c
+	  3. graph01.c
+	  4. README
+	  5. Makefile
+*****************************************************************************
+Graph01:
+
+This program reads an input file and parses the data into an array of linked
+lists in which we keep track of the vertices and the adjacent vertices to them.
+Then after doing that it will print out the information to stdout. This is
+accomplished by implmenting intList.c which is a linked list ADT.
