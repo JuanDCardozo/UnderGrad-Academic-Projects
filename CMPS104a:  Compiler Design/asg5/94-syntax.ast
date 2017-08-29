@@ -1,3 +1,0 @@
-ROOT "ROOT" 0.0.0
-|  RETURN "return" 3.5.1
-|  |  IDENT "foo" 3.5.8

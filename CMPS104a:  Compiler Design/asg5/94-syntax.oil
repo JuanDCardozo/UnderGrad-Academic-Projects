@@ -1,6 +1,0 @@
-#define __OCLIB_C__
-#include "oclib.oh"void __ocmain (void) {
-        char* s1 = return;
-foo __foo
-return foo __foo;
-}

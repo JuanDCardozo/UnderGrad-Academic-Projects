@@ -1,4 +1,0 @@
-<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
-92-uncomment.oc:1:1: error: unterminated comment
- /*
- ^

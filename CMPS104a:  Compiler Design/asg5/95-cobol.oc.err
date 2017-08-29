@@ -1,7 +1,0 @@
-<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
-H플:3.8: syntax error, unexpected TOK_IDENT
-H플:19.16: invalid source character (")
-H플:19.18: invalid source character (")
-H플:20.16: invalid source character (")
-H플:20.29: invalid source character (")
-Error Parsing

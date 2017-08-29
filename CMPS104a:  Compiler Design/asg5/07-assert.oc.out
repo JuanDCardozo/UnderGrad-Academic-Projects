@@ -1,4 +1,0 @@
-codegen ident: __assert_fail
-codegen ident: assert
-codegen ident: __assert_fail
-codegen ident: assert

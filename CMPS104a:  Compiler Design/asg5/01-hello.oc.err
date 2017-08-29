@@ -1,5 +1,0 @@
-<command-line>:0:2: warning: missing whitespace after the macro name [enabled by default]
-¨9Z:6.7: invalid source character (")
-¨9Z:6.20: syntax error, unexpected '!', expecting ')' or ','
-¨9Z:6.21: invalid source character (\)
-¨9Z:6.23: invalid source character (")

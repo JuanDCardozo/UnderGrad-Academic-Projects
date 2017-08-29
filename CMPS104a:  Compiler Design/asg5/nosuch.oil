@@ -1,3 +1,0 @@
-#define __OCLIB_C__
-#include "oclib.oh"void __ocmain (void) {
-}
